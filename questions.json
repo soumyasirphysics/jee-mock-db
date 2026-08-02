@@ -1,0 +1,374 @@
+{
+  "JEE_Mock_2026_1": [
+    {
+      "id": "Q1",
+      "type": "mcq",
+      "sourceChapter": "Kinematics",
+      "topic": "Motion in a Straight Line",
+      "q": "A particle is moving with uniform acceleration along a straight line. Its velocities at A & B are respectively $7 \\text{ m/s}$ & $17 \\text{ m/s}$. M is mid point of AB. If $t_1$ is the time taken to go from A to M and $t_2$ the time taken to go from M to B, the ratio $t_1 / t_2$ is equal to :-",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Let $M$ be the midpoint of $AB$ with total distance $2x$. The velocity at $M$ is given by $v_M = \\sqrt{\\frac{v_A^2 + v_B^2}{2}}$.<br><b>Step 2:</b> Substitute the given values: $v_M = \\sqrt{\\frac{7^2 + 17^2}{2}} = \\sqrt{\\frac{49 + 289}{2}} = \\sqrt{169} = 13 \\text{ m/s}$.<br><b>Step 3:</b> Using $v = u + at$, the ratio of times is $\\frac{t_1}{t_2} = \\frac{v_M - v_A}{v_B - v_M} = \\frac{13 - 7}{17 - 13} = \\frac{6}{4} = \\frac{3}{2}$.",
+      "options": [
+        "3 : 2",
+        "3 : 1",
+        "2 : 1",
+        "2 : 3"
+      ]
+    },
+    {
+      "id": "Q2",
+      "type": "mcq",
+      "sourceChapter": "Kinematics",
+      "topic": "Relative Motion",
+      "q": "A person drops a stone from a building of height $20 \\text{ m}$. At the same instant the front end of a truck passes below the building moving with constant acceleration of $1 \\text{ m/s}^2$ and velocity of $2 \\text{ m/s}$ at that instant. Length of the truck if the stone just misses to hit its rear part is :-",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Find the time taken for the stone to hit the ground using $h = \\frac{1}{2}gt^2$: $20 = \\frac{1}{2}(10)t^2$, which gives $t = 2 \\text{ s}$.<br><b>Step 2:</b> Calculate the distance traveled by the front of the truck in this time using $S = ut + \\frac{1}{2}at^2$: $S = 2(2) + \\frac{1}{2}(1)(2)^2 = 4 + 2 = 6 \\text{ m}$.<br><b>Step 3:</b> Since the stone just misses the rear part, the rear end must be exactly at the initial position of the front end. Thus, the length of the truck is $6 \\text{ m}$.",
+      "options": [
+        "$6 \\text{ m}$",
+        "$4 \\text{ m}$",
+        "$5 \\text{ m}$",
+        "$2 \\text{ m}$"
+      ]
+    },
+    {
+      "id": "Q3",
+      "type": "mcq",
+      "sourceChapter": "Kinematics",
+      "topic": "Projectile Motion",
+      "q": "A body is thrown horizontally with a velocity $\\sqrt{2gh}$ from the top of a tower of height h. It strikes the level ground through the foot of the tower at a distance x from the tower. The value of x is :-",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The time of flight for a body thrown horizontally from height $h$ is $t = \\sqrt{\\frac{2h}{g}}$.<br><b>Step 2:</b> The horizontal distance (range) $x$ is the product of horizontal velocity and time of flight: $x = v_x \\times t$.<br><b>Step 3:</b> Substitute the given velocity: $x = \\sqrt{2gh} \\times \\sqrt{\\frac{2h}{g}} = \\sqrt{4h^2} = 2h$.",
+      "options": [
+        "$h$",
+        "$h/2$",
+        "$2h$",
+        "$2h/3$"
+      ]
+    },
+    {
+      "id": "Q4",
+      "type": "mcq",
+      "sourceChapter": "Kinematics",
+      "topic": "Motion in a Straight Line",
+      "q": "The velocity - time graph of the particle moving along a straight line is shown. The rate of acceleration and deceleration is constant and it is equal to $5 \\text{ ms}^{-2}$. If the average velocity during the motion is $20 \\text{ ms}^{-1}$, then the value of $t$ is",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjqS8sKAv6H_PB8HnXfUql2yA9oW5pkHJjCdEbIh_0nBdBrt2j9u0c__4J3s627woaQKYq1mYrvvqrcpAM6dN2liirziXCQNGYGN9xBuZzSdu0Nl9XI8YXS3nk0zOetg63wpcA8dLKITKWMEZ5AZpKjNfFisOAOHloPLkNY8Lu4Ud7aR7ZYMJA9n5fJC3N8",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Let maximum velocity be $v_{max}$. Since acceleration is $5 \\text{ m/s}^2$, $v_{max} = 5t$. Due to symmetry, deceleration time is also $t$, so the constant velocity phase lasts for $(25 - 2t)$ seconds.<br><b>Step 2:</b> Total displacement $S$ is the area of the trapezium: $S = \\frac{1}{2} \\times (\\text{base} + \\text{top}) \\times \\text{height} = \\frac{1}{2} [25 + (25 - 2t)] \\times 5t = 5t(25 - t)$.<br><b>Step 3:</b> Average velocity is $v_{avg} = \\frac{S}{T} \\implies 20 = \\frac{5t(25 - t)}{25}$. This simplifies to $t^2 - 25t + 100 = 0$, giving $t = 5 \\text{ s}$ or $t = 20 \\text{ s}$. Since $2t < 25$ for the graph to hold its shape, $t = 5 \\text{ s}$.",
+      "options": [
+        "3 sec",
+        "5 sec",
+        "10 sec",
+        "12 sec"
+      ]
+    },
+    {
+      "id": "Q5",
+      "type": "mcq",
+      "sourceChapter": "Kinematics",
+      "topic": "Projectile Motion",
+      "q": "A ball is projected from a certain point on the surface of a planet at a certain angle with the horizontal surface. The horizontal and vertical displacements x and y vary with time t in second as : $x = 10\\sqrt{3} t$; $y = 10t - t^2$ the maximum height attained by the ball is :-",
+      "imgUrl": "",
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The vertical displacement is given by $y = 10t - t^2$. The vertical velocity is the rate of change of vertical displacement: $v_y = \\frac{dy}{dt} = 10 - 2t$.<br><b>Step 2:</b> At the maximum height, the vertical component of velocity becomes zero. Setting $v_y = 0$ gives $10 - 2t = 0 \\implies t = 5 \\text{ s}$.<br><b>Step 3:</b> Substitute $t = 5 \\text{ s}$ back into the vertical displacement equation to find the maximum height: $y_{max} = 10(5) - (5)^2 = 50 - 25 = 25 \\text{ m}$.",
+      "options": [
+        "100 m",
+        "75 m",
+        "50 m",
+        "25 m"
+      ]
+    },
+    {
+      "id": "Q6",
+      "type": "mcq",
+      "sourceChapter": "Units and Measurements",
+      "topic": "Dimensional Analysis",
+      "q": "The position of a particle depends on time $t$ according to the equation $P = \\frac{\\alpha}{\\beta} e^{-\\frac{\\alpha z}{k_B T}}$, where $P$ is pressure, $z$ is distance, $k_B$ is Boltzmann's constant, and $T$ is temperature. What are the dimensions of $\\beta$?",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The exponent $\\frac{\\alpha z}{k_B T}$ must be dimensionless. Thus, $[\\alpha] = \\frac{[k_B T]}{[z]} = \\frac{M L^2 T^{-2}}{L} = M L T^{-2}$.<br><b>Step 2:</b> From the equation, $[P] = \\frac{[\\alpha]}{[\\beta]}$. Rearranging gives $[\\beta] = \\frac{[\\alpha]}{[P]}$.<br><b>Step 3:</b> Substitute the dimensions: $[\\beta] = \\frac{M L T^{-2}}{M L^{-1} T^{-2}} = L^2$, which corresponds to Area.",
+      "options": [
+        "Area",
+        "Volume",
+        "Density",
+        "Force"
+      ]
+    },
+    {
+      "id": "Q7",
+      "type": "mcq",
+      "sourceChapter": "Units and Measurements",
+      "topic": "Error Analysis",
+      "q": "The voltage across a wire is $V = (100 \\pm 5) \\text{ V}$ and the current passing through it is $I = (10 \\pm 0.2) \\text{ A}$. What is the maximum percentage error in the resistance $R$?",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Resistance is given by Ohm's Law: $R = \\frac{V}{I}$.<br><b>Step 2:</b> The maximum relative error in $R$ is $\\frac{\\Delta R}{R} = \\frac{\\Delta V}{V} + \\frac{\\Delta I}{I}$.<br><b>Step 3:</b> Calculate percentages: $\\frac{\\Delta V}{V} \\times 100 = \\frac{5}{100} \\times 100 = 5\\%$ and $\\frac{\\Delta I}{I} \\times 100 = \\frac{0.2}{10} \\times 100 = 2\\%$. Total error $= 5\\% + 2\\% = 7\\%$.",
+      "options": [
+        "$5\\%$",
+        "$7\\%$",
+        "$3\\%$",
+        "$2\\%$"
+      ]
+    },
+    {
+      "id": "Q8",
+      "type": "mcq",
+      "sourceChapter": "Units and Measurements",
+      "topic": "Vernier Calipers",
+      "q": "A vernier caliper has $1 \\text{ mm}$ marks on the main scale. It has $20$ equal divisions on the Vernier scale which match with $16$ main scale divisions. For this caliper, the least count is:",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Find the value of one main scale division (MSD), which is $1 \\text{ mm}$.<br><b>Step 2:</b> Find the value of one vernier scale division (VSD). $20 \\text{ VSD} = 16 \\text{ MSD}$, so $1 \\text{ VSD} = \\frac{16}{20} \\text{ mm} = 0.8 \\text{ mm}$.<br><b>Step 3:</b> Calculate Least Count: $\\text{LC} = 1 \\text{ MSD} - 1 \\text{ VSD} = 1 \\text{ mm} - 0.8 \\text{ mm} = 0.2 \\text{ mm}$.",
+      "options": [
+        "$0.02 \\text{ mm}$",
+        "$0.05 \\text{ mm}$",
+        "$0.2 \\text{ mm}$",
+        "$0.1 \\text{ mm}$"
+      ]
+    },
+    {
+      "id": "Q9",
+      "type": "mcq",
+      "sourceChapter": "Units and Measurements",
+      "topic": "Significant Figures",
+      "q": "The side of a cube is measured to be $1.2 \\times 10^{-2} \\text{ m}$. Following the rules of significant figures, the volume of this cube should be reported as:",
+      "imgUrl": "",
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Calculate the raw volume: $V = (1.2 \\times 10^{-2})^3 = 1.728 \\times 10^{-6} \\text{ m}^3$.<br><b>Step 2:</b> Identify the number of significant figures in the given side length ($1.2$), which is $2$.<br><b>Step 3:</b> Round the final result to $2$ significant figures. $1.728 \\times 10^{-6} \\text{ m}^3$ rounds down to $1.7 \\times 10^{-6} \\text{ m}^3$.",
+      "options": [
+        "$1.728 \\times 10^{-6} \\text{ m}^3$",
+        "$1.73 \\times 10^{-6} \\text{ m}^3$",
+        "$1.72 \\times 10^{-6} \\text{ m}^3$",
+        "$1.7 \\times 10^{-6} \\text{ m}^3$"
+      ]
+    },
+    {
+      "id": "Q10",
+      "type": "mcq",
+      "sourceChapter": "Current Electricity",
+      "topic": "Equivalent Resistance",
+      "q": "Twelve resistors are arranged into a cube as shown in figure. All resistors have a resistance of $6\\Omega$. A $25\\text{ V}$ potential difference is applied between point A and point D. Find the total current flowing from A to D.",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEirXc_XmRa_F1Xzem3Zh63IM02XOJd3o2majptOmh_e2bg9aj3SAz0FI9GTJRTmfLJlA7CHYHJWTnVsP9Wufm_Wq0-2DW53LJ74VrDiedn9qfU8lrD3YrdyZg-UL7nl3xuO47OciCSSoJq_cWwUHzIkjHw5Hr3x-LDM_3CEi0OEirNoxbvQRqerT6jabuoq",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The equivalent resistance across the body diagonal (from A to D) of a cube made of 12 identical resistors $R$ is given by the standard formula $R_{eq} = \\frac{5}{6}R$.<br><b>Step 2:</b> Substitute the given resistance $R = 6\\Omega$ into the formula to find the equivalent resistance: $R_{eq} = \\frac{5}{6} \\times 6\\Omega = 5\\Omega$.<br><b>Step 3:</b> According to Ohm's law, the total current flowing through the circuit is $I = \\frac{V}{R_{eq}} = \\frac{25}{5} = 5\\text{ A}$.",
+      "options": [
+        "$1\\text{ A}$",
+        "$2\\text{ A}$",
+        "$5\\text{ A}$",
+        "$10\\text{ A}$"
+      ]
+    },
+    {
+      "id": "Q11",
+      "type": "mcq",
+      "sourceChapter": "Current Electricity",
+      "topic": "Series and Parallel Circuits",
+      "q": "The potential difference across $8\\text{ ohm}$ resistance is $48\\text{ volt}$ as shown in the figure. The value of potential difference across X and Y points will be:",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEh_hGtg_-WA4dLwdMwVWkosxvy_SQeZHct6UluHlhxzTcLkY_TKi1Ont_-4F337NNfy9kGuhSQPqvzrCUpaiS8aqF-ntN0IWfFZFKA0l61i507I89d0jLhtWzFvqrqrc7YbbhG5hCpEczECeOC3srQiasERLXll9O1qhv5-fwp5BsXeNyRbbCwrFoypTOhE",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Identify the parallel branches. The top branch has resistors $20\\Omega, 30\\Omega,$ and $60\\Omega$ in parallel, giving $R_1 = (\\frac{1}{20} + \\frac{1}{30} + \\frac{1}{60})^{-1} = 10\\Omega$. The middle branch has $24\\Omega$ and $8\\Omega$ in parallel, giving $R_2 = (\\frac{1}{24} + \\frac{1}{8})^{-1} = 6\\Omega$.<br><b>Step 2:</b> The voltage across the $8\\Omega$ resistor is the voltage across the entire $R_2$ parallel combination ($48\\text{ V}$). The total main circuit current is $I = \\frac{V_2}{R_2} = \\frac{48}{6} = 8\\text{ A}$.<br><b>Step 3:</b> The total equivalent resistance between X and Y is $R_{eq} = 3\\Omega + R_1 + R_2 + 1\\Omega = 3 + 10 + 6 + 1 = 20\\Omega$. The total potential difference is $V_{XY} = I \\times R_{eq} = 8 \\times 20 = 160\\text{ V}$.",
+      "options": [
+        "$160\\text{ volt}$",
+        "$128\\text{ volt}$",
+        "$80\\text{ volt}$",
+        "$62\\text{ volt}$"
+      ]
+    },
+    {
+      "id": "Q12",
+      "type": "mcq",
+      "sourceChapter": "Electrostatics",
+      "topic": "Capacitors",
+      "q": "Assuming capacitance of each capacitors equals C, find the effective capacitance between A and B :-",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiXQjYML81wzBBTXXuiENoMP3qVljJfIpWO4jzmqkJvXK3lNZGfgqevpaKzQohrO_6O4t_6OqJnaDCr-kiklRZN842x__0mAA27TwvKv7RB96uuqKOxddfXhiMa_SXm_fk6wwo_NKLV-AZjhbk4x5L47xEhrjlY-X0pEtRaIiWeVWwnGzNwbWtmgtuHeEGe",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Analyze the symmetry of the given network. The circuit consists of outer and inner square loops of capacitors connected by diagonal nodes, forming a complex bridge structure.<br><b>Step 2:</b> By tracing the equipotential nodes and folding the circuit along its axis of symmetry, the parallel corresponding edges of the inner and outer squares reduce the network to a balanced Wheatstone bridge configuration.<br><b>Step 3:</b> In a balanced Wheatstone bridge where all active arms have equal capacitance $C$, the central capacitor carries no charge and can be removed, resulting in a final equivalent capacitance of $C$.",
+      "options": [
+        "C",
+        "C/2",
+        "5C/8",
+        "3C/8"
+      ]
+    },
+    {
+      "id": "Q13",
+      "type": "mcq",
+      "sourceChapter": "Electrostatics",
+      "topic": "Electric Field",
+      "q": "Consider a regular cube with positive point charge +Q on all corners except for one which has a negative point charge -Q. Let the distance from any corner to the centre of the cube be r. What is the magnitude of electric field at point P, the centre of the cube?",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgq7QY0rmJf_JoKL6rS51vJimC2stoS5kP8yxlaMXCwh0zPjnVP3Lo_nba6vtH6LW8biId0393NoMaYvsUTqH-nbxqax0_EzVQpgWmzcfR1MwbVwYOYnfWff7MQtdOUi7RgU7QnKVed7fxoEpqYL56jTN65iQ2rn5fh-VKcWADS73URwVoUJPn_Rdb1RLRc",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Apply the principle of superposition. The given charge configuration is equivalent to a complete symmetric cube with $+Q$ at all 8 corners, superimposed with an additional $-2Q$ charge at the specific corner containing the $-Q$ charge (since $+Q - 2Q = -Q$).<br><b>Step 2:</b> The electric field at the geometric center P due to a completely symmetric cube with identical $+Q$ charges at all 8 corners cancels out perfectly, yielding zero net field.<br><b>Step 3:</b> Therefore, the net electric field at the center is solely due to the additional superimposed $-2Q$ charge. Its magnitude is $E = \\frac{k|-2Q|}{r^2} = \\frac{2kQ}{r^2}$.",
+      "options": [
+        "$E = 0$",
+        "$E = kQ/r^2$",
+        "$E = 2kQ/r^2$",
+        "$E = 6kQ/r^2$"
+      ]
+    },
+    {
+      "id": "Q14",
+      "type": "mcq",
+      "sourceChapter": "Electrostatics",
+      "topic": "Electric Field",
+      "q": "A small sphere with mass $1.2\\text{ g}$ hangs by a thread between two parallel vertical plates held $5\\text{ cm}$ apart. The plates are insulating and have uniform surface charge densities $+\\sigma$ and $-\\sigma$ on inner faces. The charge on the sphere is $q = 9 \\times 10^{-6}\\text{ C}$. What potential difference between the plates will cause the thread to make an angle of $37^\\circ$ with the vertical as shown in fig. :- (Take $g = 10\\text{ m/sec}^2$)",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEh4lDOs5S7gCn82OA8JVCSSXJFGEp3flBq0S3qOniyhSpnZlWpOr_zORGIq3Yll72TEqA3bgT6ozZx84_SOZ2Dc9mKORu-j6zMKRLPByAaEfR2v2bJlryhLtouATI5hzPqChHP0g7nh2sF7eOcaI5E6Kj7LdAWiHBSeoQZN7dMnXrMcM-jRKDbxcTF98UZ7",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> For the hanging sphere to remain in equilibrium at an angle $\\theta$, the horizontal electric force must balance the horizontal component of tension, and gravity balances the vertical component. This gives the relation $\\tan\\theta = \\frac{qE}{mg}$.<br><b>Step 2:</b> The uniform electric field $E$ between the parallel plates is related to the potential difference $V$ and separation distance $d$ by $E = \\frac{V}{d}$. Substituting this into the equilibrium equation gives $\\tan\\theta = \\frac{qV}{mgd}$.<br><b>Step 3:</b> Rearranging for $V$ and substituting the given values ($m = 1.2 \\times 10^{-3}\\text{ kg}$, $d = 0.05\\text{ m}$, $\\tan 37^\\circ = 3/4$): $V = \\frac{mgd \\tan 37^\\circ}{q} = \\frac{(1.2 \\times 10^{-3})(10)(0.05)(0.75)}{9 \\times 10^{-6}} = 50\\text{ V}$.",
+      "options": [
+        "$30\\text{ V}$",
+        "$12\\text{ V}$",
+        "$50\\text{ V}$",
+        "$25\\text{ V}$"
+      ]
+    },
+    {
+      "id": "Q15",
+      "type": "mcq",
+      "sourceChapter": "Current Electricity",
+      "topic": "Internal Resistance",
+      "q": "Two non-ideal batteries with EMFs $\\varepsilon_1 = 6 \\text{ V}$, $r_1 = 1 \\Omega$ and $\\varepsilon_2 = 4 \\text{ V}$, $r_2 = 2 \\Omega$ are connected in parallel (positive to positive) across an external resistor $R$. If the power dissipated in $R$ is maximum, the value of $R$ and the current through it are:",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Find equivalent EMF and internal resistance: $\\varepsilon_{eq} = \\frac{6/1 + 4/2}{1/1 + 1/2} = \\frac{8}{3/2} = \\frac{16}{3} \\text{ V}$ and $r_{eq} = \\frac{1}{3/2} = \\frac{2}{3} \\Omega$.<br><b>Step 2:</b> For maximum power transfer, $R = r_{eq} = \\frac{2}{3} \\Omega$.<br><b>Step 3:</b> The total current is $I = \\frac{\\varepsilon_{eq}}{R + r_{eq}} = \\frac{16/3}{2/3 + 2/3} = \\frac{16/3}{4/3} = 4 \\text{ A}$.",
+      "options": [
+        "$R = \\frac{2}{3} \\Omega, I = 3 \\text{ A}$",
+        "$R = \\frac{2}{3} \\Omega, I = 4 \\text{ A}$",
+        "$R = \\frac{3}{2} \\Omega, I = 3 \\text{ A}$",
+        "$R = \\frac{4}{3} \\Omega, I = 2 \\text{ A}$"
+      ]
+    },
+    {
+      "id": "Q16",
+      "type": "mcq",
+      "sourceChapter": "Electrostatics",
+      "topic": "Electric Dipole",
+      "q": "An electric dipole with dipole moment $\\vec{p} = (3\\hat{i} + 4\\hat{j}) \\times 10^{-30} \\text{ C-m}$ is placed in an electric field $\\vec{E} = 4000\\hat{i} (\\text{N/C})$. An external agent turns the dipole slowly until its electric dipole moment becomes $(-4\\hat{i} + 3\\hat{j}) \\times 10^{-30} \\text{ C-m}$. The work done by the external agent is equal to :-",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The work done by an external agent in rotating a dipole is $W = \\Delta U = U_f - U_i = -\\vec{p}_f \\cdot \\vec{E} - (-\\vec{p}_i \\cdot \\vec{E})$.<br><b>Step 2:</b> Calculate initial energy: $U_i = -(3\\hat{i} + 4\\hat{j})\\times 10^{-30} \\cdot (4000\\hat{i}) = -12 \\times 10^{-27} \\text{ J}$. Calculate final energy: $U_f = -(-4\\hat{i} + 3\\hat{j})\\times 10^{-30} \\cdot (4000\\hat{i}) = 16 \\times 10^{-27} \\text{ J}$.<br><b>Step 3:</b> $W = 16 \\times 10^{-27} - (-12 \\times 10^{-27}) = 28 \\times 10^{-27} \\text{ J} = 2.8 \\times 10^{-26} \\text{ J}$.",
+      "options": [
+        "$4 \\times 10^{-28} \\text{ J}$",
+        "$-4 \\times 10^{-28} \\text{ J}$",
+        "$2.8 \\times 10^{-26} \\text{ J}$",
+        "$-2.8 \\times 10^{-26} \\text{ J}$"
+      ]
+    },
+    {
+      "id": "Q17",
+      "type": "mcq",
+      "sourceChapter": "Electrostatics",
+      "topic": "Electric Potential",
+      "q": "Electric potential in a particular region of space is $V = 12x - 3x^2y + 2yz^2$. The electric field at point P $(1\\text{m}, 0, -2\\text{m})$ is :-",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The electric field is the negative gradient of the potential: $\\vec{E} = -(\\frac{\\partial V}{\\partial x}\\hat{i} + \\frac{\\partial V}{\\partial y}\\hat{j} + \\frac{\\partial V}{\\partial z}\\hat{k})$.<br><b>Step 2:</b> Differentiating $V = 12x - 3x^2y + 2yz^2$ gives $E_x = -12 + 6xy$, $E_y = 3x^2 - 2z^2$, and $E_z = -4yz$.<br><b>Step 3:</b> At point $(1, 0, -2)$, $E_x = -12$, $E_y = 3(1) - 2(4) = -5$, and $E_z = 0$. The magnitude is $|\\vec{E}| = \\sqrt{(-12)^2 + (-5)^2} = 13$ units.",
+      "options": [
+        "12 unit",
+        "13 unit",
+        "5 unit",
+        "Zero"
+      ]
+    },
+    {
+      "id": "Q18",
+      "type": "mcq",
+      "sourceChapter": "Current Electricity",
+      "topic": "Resistance",
+      "q": "At $0^\\circ\\text{C}$ the electric resistance of a conductor B is n times that of conductor A. The temperature coefficient of resistance for conductors A & B are $\\alpha_1$ & $\\alpha_2$ respectively. The temperature coefficient of resistance of a circuit segment containing A & B in series is :-",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The resistance of the conductors at temperature $T$ are $R_A = R_0(1 + \\alpha_1 T)$ and $R_B = nR_0(1 + \\alpha_2 T)$.<br><b>Step 2:</b> In series, the equivalent resistance is $R_{eq} = R_A + R_B = R_0(1+n) + R_0(\\alpha_1 + n\\alpha_2)T$.<br><b>Step 3:</b> We can also write $R_{eq} = R_{eq0}(1 + \\alpha_{eq} T) = R_0(1+n)(1 + \\alpha_{eq} T)$. Comparing the temperature coefficients yields $\\alpha_{eq} = \\frac{\\alpha_1 + n\\alpha_2}{1 + n}$.",
+      "options": [
+        "$\\frac{\\alpha_1 + n\\alpha_2}{1 + n}$",
+        "$\\frac{\\alpha_2 + n\\alpha_1}{1 + n}$",
+        "$\\frac{n\\alpha_2 + n\\alpha_1}{1 + n}$",
+        "None"
+      ]
+    },
+    {
+      "id": "Q19",
+      "type": "mcq",
+      "sourceChapter": "Kinematics",
+      "topic": "Motion in a Straight Line",
+      "q": "A bird flies $2\\sqrt{14} \\text{ m}$ from $(2, 4, 6)$ along $3\\hat{i} + 2\\hat{j} + \\hat{k}$, final position of bird is :",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The initial position vector is $\\vec{r}_i = 2\\hat{i} + 4\\hat{j} + 6\\hat{k}$. The direction vector is $\\vec{v} = 3\\hat{i} + 2\\hat{j} + \\hat{k}$ with magnitude $|\\vec{v}| = \\sqrt{9+4+1} = \\sqrt{14}$.<br><b>Step 2:</b> The displacement vector is $\\vec{d} = \\text{distance} \\times \\hat{v} = 2\\sqrt{14} \\times \\frac{3\\hat{i} + 2\\hat{j} + \\hat{k}}{\\sqrt{14}} = 6\\hat{i} + 4\\hat{j} + 2\\hat{k}$.<br><b>Step 3:</b> The final position is $\\vec{r}_f = \\vec{r}_i + \\vec{d} = (2+6)\\hat{i} + (4+4)\\hat{j} + (6+2)\\hat{k} = 8\\hat{i} + 8\\hat{j} + 8\\hat{k}$, which corresponds to $(8, 8, 8)$.",
+      "options": [
+        "(6, 4, 2)",
+        "(2, 6, 4)",
+        "(8, 8, 8)",
+        "(4, 0, -4)"
+      ]
+    },
+    {
+      "id": "Q20",
+      "type": "mcq",
+      "sourceChapter": "Units and Measurements",
+      "topic": "Significant Figures",
+      "q": "Which of the following is a CORRECT statement ?",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Analyze the multiplication/division rule for significant figures: the result must have the same number of significant figures as the term with the fewest significant figures.<br><b>Step 2:</b> In option (3), $8.05$ has 3 sig figs and $3.1$ has 2 sig figs. The result must be rounded to exactly 2 sig figs.<br><b>Step 3:</b> The mathematical division is $8.05 / 3.1 \\approx 2.596$. Rounding this to 2 significant figures gives $2.6$. Thus, statement (3) is mathematically and scientifically correct according to sig fig rules.",
+      "options": [
+        "$2.3056 + 10.138 - 7.4671 = 4.9765$",
+        "$2.38 \\times 1.0 = 2.38$",
+        "$\\frac{8.05}{3.1} = 2.6$",
+        "$(1.11 - 0.1) \\times 9.0 = 9.0$"
+      ]
+    },
+    {
+      "id": "Q21",
+      "type": "integer",
+      "sourceChapter": "Kinematics",
+      "topic": "Motion in a Straight Line",
+      "q": "A particle is moving in a straight line with some initial velocity and constant acceleration. If the sum of the distances travelled in $t^{\\text{th}}$ & $(t + 1)^{\\text{th}}$ sec. is $100 \\text{ cm}$, then its velocity after $t$ sec. (in $\\text{cm/s}$) is :-",
+      "imgUrl": "",
+      "correct": 50,
+      "sol": "<b>Step 1:</b> The distance covered in the $n$-th second is given by $S_n = u + \\frac{a}{2}(2n - 1) = u + a(n - 0.5)$.<br><b>Step 2:</b> Sum of distances in $t$-th and $(t+1)$-th second is $S_t + S_{t+1} = [u + a(t - 0.5)] + [u + a(t + 1 - 0.5)] = 2u + 2at = 2(u + at)$.<br><b>Step 3:</b> Given this sum is $100 \\text{ cm}$, we have $2(u + at) = 100 \\implies u + at = 50$. The velocity after $t$ seconds is $v = u + at = 50 \\text{ cm/s}$."
+    },
+    {
+      "id": "Q22",
+      "type": "integer",
+      "sourceChapter": "Kinematics",
+      "topic": "Projectile Motion",
+      "q": "A ball is projected horizontally from the top of tower at $12 \\text{ m/s}$ as shown in figure wind is blowing as indicated (horizontally), which causes acceleration $6 \\text{ m/s}^2$ horizontally. Displacement of the ball when it strikes the tower will be ($g = 10 \\text{ m/s}^2$) :-",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiq7YeqJ8uTaEVE-V34JsY9gg1_TfAX0v893TNw0tE4_qM97ultNBZM5xvtOc5l7JHzPfOs41qG2mcKEx4ph9jfr2GOwIQGS8gdoe1mH1E2VcOYxQChoD97ezP7w6lFmzwYZfwAShDR0G1aYDIDP0AGAdtiC6_txfuCsolk-hiAzJRVIWznnBfhGYvdixfr",
+      "correct": 80,
+      "sol": "<b>Step 1:</b> The ball experiences a constant horizontal acceleration $a_x = -6 \\text{ m/s}^2$ opposing its initial velocity $u_x = 12 \\text{ m/s}$. It will strike the tower when its horizontal displacement $S_x = 0$.<br><b>Step 2:</b> Using $S_x = u_x t + \\frac{1}{2}a_x t^2$, we get $0 = 12t - \\frac{1}{2}(6)t^2 \\implies 3t^2 = 12t \\implies t = 4 \\text{ s}$.<br><b>Step 3:</b> The net displacement is entirely vertical since it returns to the tower's horizontal coordinate. $S_y = u_y t + \\frac{1}{2}a_y t^2 = 0 + \\frac{1}{2}(10)(4)^2 = 5 \\times 16 = 80 \\text{ m}$."
+    },
+    {
+      "id": "Q23",
+      "type": "integer",
+      "sourceChapter": "Current Electricity",
+      "topic": "Steady State AC/DC",
+      "q": "In the following figure, the charge on each condenser in the steady state will be (in $\\mu\\text{C}$) :-",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhtXivRnqkL3K93NiJpWU98IkVjXZzc2dtoxpzJGxvY2-4P7i-Z75KnvyOI6PqyPza3nvTYgf9rk1fMKgnQoh7BgH6mvESU44DX3IoF1A-oOgxxK4WF5Va_h744Ak7vMSieOV9gv8yEH8oZIgQiVVEBpL2MyLR7fZzGOeIiP7FMwCMgsW3cj_Z67ZNP3wD2",
+      "correct": 12,
+      "sol": "<b>Step 1:</b> In the steady state, capacitors act as open circuits. Therefore, no current flows through the branches containing the $3\\mu\\text{F}$ capacitors.<br><b>Step 2:</b> The steady current only flows through the middle $4\\Omega$ resistor and the $1\\Omega$ internal resistance. Total loop resistance $= 5\\Omega$. Current $I = 10\\text{V} / 5\\Omega = 2\\text{A}$. The potential difference across the $4\\Omega$ resistor is $V = 2\\text{A} \\times 4\\Omega = 8\\text{V}$.<br><b>Step 3:</b> This $8\\text{V}$ is applied across the top branch (two $3\\mu\\text{F}$ caps in series, equivalent to $1.5\\mu\\text{F}$). Charge on each top capacitor is $Q = C_{eq}V = 1.5\\mu\\text{F} \\times 8\\text{V} = 12\\mu\\text{C}$. The bottom branch is identical, so all capacitors hold $12\\mu\\text{C}$."
+    },
+    {
+      "id": "Q24",
+      "type": "integer",
+      "sourceChapter": "Electrostatics",
+      "topic": "Gauss Law",
+      "q": "In a particular system, if number of electric field lines associated by $1\\text{C}$ charge is $10^9$. Then net number of electric field lines passing through the given closed surface is $n \\times 10^3$ find $n$.",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjFOhIEK3nJJSG4COrXux-9KEimLgITP_bzLtPXf_sWWL_TsxBsceA-QJ1t0bi3w9u2HIsA77Q_jSvC5j0npEHn3ZQKKKnLnMBqS3UT2YgLcLn_XCSamyNQ7QIt25CQTRys5cW-B5Rk4vsVEXmPtqepKBq1GEXdw0sQT5CqZEBklU8cC25TX7BiQC6IKC7J",
+      "correct": 4,
+      "sol": "<b>Step 1:</b> According to Gauss's Law, the total electric flux (number of field lines) through a closed surface depends only on the net charge enclosed within it.<br><b>Step 2:</b> The net enclosed charge is $Q_{enc} = 10\\mu\\text{C} + (-6\\mu\\text{C}) = 4\\mu\\text{C} = 4 \\times 10^{-6} \\text{ C}$. Charges outside the surface ($-3\\mu\\text{C}$ and $+2\\mu\\text{C}$) do not contribute to the net flux.<br><b>Step 3:</b> Since $1\\text{C}$ produces $10^9$ lines, $4 \\times 10^{-6} \\text{ C}$ produces $(4 \\times 10^{-6}) \\times 10^9 = 4 \\times 10^3$ lines. Equating this to $n \\times 10^3$, we find $n = 4$."
+    },
+    {
+      "id": "Q25",
+      "type": "integer",
+      "sourceChapter": "Electrostatics",
+      "topic": "Capacitors",
+      "q": "There are six plates of equal area A and separation between the plates is d ($d \\ll A$) are arranged as shown in figure. The equivalent capacitance between points 2 and 5, is $\\alpha \\frac{\\epsilon_0 A}{d}$. Then find the value of $\\alpha$.",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjx1IJZdaZzq-W6BhxSY0YG2ZwMCACx-iUD1ogBOSBPPJIzgg6EvwWzNcCZDTEbHTcmN6BQyMgjCyrYNckiI8KgDM77twQB6XpbPV2W5Cg2TR7yPRMHuLoaNM0IUqPeJrsLZyHzfldWWsFUyqCO2CER4IbLbG3E7YrSp5tqWFo5FMrXXT4CyH86aI57j9VB",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Label the plates $1$ to $6$. The terminals are at plates $2$ (node A) and $5$ (node B). Plates $1$ and $4$ form node C. Plates $3$ and $6$ form node D.<br><b>Step 2:</b> Draw the equivalent circuit. It forms a Wheatstone bridge with $C_{AC} = C_{AD} = C_{BC} = C_{BD} = \\frac{\\epsilon_0 A}{d}$ (since separation is $d$). The central capacitor $C_{CD}$ has separation $2d$, so $C_{CD} = \\frac{\\epsilon_0 A}{2d}$.<br><b>Step 3:</b> The bridge is balanced because $C_{AC}/C_{BC} = C_{AD}/C_{BD} = 1$. No charge flows through $C_{CD}$. The equivalent capacitance is the parallel combination of two series branches: $C_{eq} = (\\frac{1}{C} + \\frac{1}{C})^{-1} + (\\frac{1}{C} + \\frac{1}{C})^{-1} = \\frac{C}{2} + \\frac{C}{2} = C = \\frac{\\epsilon_0 A}{d}$. Thus, $\\alpha = 1$."
+    }
+  ]
+}
