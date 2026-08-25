@@ -378,7 +378,7 @@
       "sourceChapter": "Newton's Laws of Motion",
       "topic": "Tension and Acceleration",
       "q": "A light string fixed at one end to a clamp on ground passes over a fixed pulley and hangs at the other side. It makes an angle of $30^\\circ$ with the ground. A monkey of mass $5 \\text{ kg}$ climbs up the rope. The clamp can tolerate a vertical force of $40 \\text{ N}$ only. The maximum acceleration in upward direction with which the monkey can climb safely is (neglect friction and take $g = 10 \\text{ m/s}^2$) :",
-      "imgUrl": "Image",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhh2cPbTZVBbcGVIayJLCAuiCGiDTHxjwLC5rBkPYnpaJB6xb2PsG2Ndj59Cf33yKXVzD-gZITzfNIwwlTBl-D6isNTGnh6xkqUoTn8LSuPRDGKKx1DN8fv8-RDHqpEcEYR5vBoDLFpUEyQV-WPofl-eeq-idpr4C3_6iaJL_SWfkZqX-ta1AJDwhnjhBkd",
       "correct": 2,
       "sol": "<b>Step 1:</b> Let $T$ be the tension in the string. The vertical component of the force on the clamp is $T \\sin 30^\\circ$. For safety, $T \\sin 30^\\circ \\le 40 \\implies T(1/2) \\le 40 \\implies T \\le 80 \\text{ N}$.<br><b>Step 2:</b> The equation of motion for the monkey climbing up with maximum acceleration $a$ is $T_{max} - mg = ma$.<br><b>Step 3:</b> Substitute the values: $80 - 5(10) = 5a \\implies 30 = 5a \\implies a = 6 \\text{ m/s}^2$.",
       "options": [
@@ -426,7 +426,7 @@
       "sourceChapter": "Friction",
       "topic": "Static Friction on Incline",
       "q": "A block kept on a rough inclined plane, as shown in the figure, remains at rest upto a maximum force $2 \\text{ N}$ down the inclined plane. The maximum external force up the inclined plane that does not move the block is $10 \\text{ N}$. The coefficient of static friction between the block and the plane is (Take, $g = 10 \\text{ m/s}^2$)",
-      "imgUrl": "Image",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhfQ5A-b0CqxKPzHyzjmQKJiJ-V2V8ZncSUrHiBy21NOtp2vIXShdXYkjA5OL3GD6BbD3ijXGJCwaKwqDxqeiK-420mLJgle7DiDdXFkMcGhbzElEM_u9qt7SxmdEAV8te4xyeSwDeldM83xrp-VRRCmdsc0tQrEcwC25Fv1yd30pST2LSs80grx9xQXv1y",
       "correct": 1,
       "sol": "<b>Step 1:</b> When a $2 \\text{ N}$ force acts down, friction $f_s$ acts up. At impending slip: $mg \\sin 30^\\circ + 2 = f_{s,max} = \\mu mg \\cos 30^\\circ$ (Eq. 1).<br><b>Step 2:</b> When a $10 \\text{ N}$ force acts up, friction acts down. At impending slip: $10 = mg \\sin 30^\\circ + \\mu mg \\cos 30^\\circ$ (Eq. 2).<br><b>Step 3:</b> Subtract Eq. 1 from Eq. 2: $10 - 2 = 2mg \\sin 30^\\circ \\implies 8 = 2mg(1/2) \\implies mg = 8 \\text{ N}$. Add Eq. 1 and Eq. 2: $12 = 2\\mu mg \\cos 30^\\circ \\implies 12 = 2\\mu(8)(\\sqrt{3}/2) \\implies \\mu = \\frac{12}{8\\sqrt{3}} = \\frac{\\sqrt{3}}{2}$.",
       "options": [
