@@ -451,6 +451,70 @@
         "$8 \\text{ m}$",
         "$10 \\text{ m}$"
       ]
+    },
+    {
+      "id": "Q6",
+      "type": "mcq",
+      "sourceChapter": "Work, Energy and Power",
+      "topic": "Work-Energy Theorem",
+      "q": "A force acts on a $2 \\text{ kg}$ object, so that its position is given as a function of time as $x = 3t^2 + 5$. What is the work done by this force in first $5 \\text{ s}$? [JEE Main 2019]",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The velocity of the object is the rate of change of position: $v = \\frac{dx}{dt} = \\frac{d}{dt}(3t^2 + 5) = 6t$.<br><b>Step 2:</b> Find the initial and final velocities. At $t = 0$, $v_i = 0$. At $t = 5\\text{ s}$, $v_f = 6(5) = 30\\text{ m/s}$.<br><b>Step 3:</b> According to the Work-Energy Theorem, $W = \\Delta K = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2 = \\frac{1}{2}(2)(30)^2 - 0 = 900\\text{ J}$.",
+      "options": [
+        "$850 \\text{ J}$",
+        "$900 \\text{ J}$",
+        "$950 \\text{ J}$",
+        "$875 \\text{ J}$"
+      ]
+    },
+    {
+      "id": "Q7",
+      "type": "mcq",
+      "sourceChapter": "Work, Energy and Power",
+      "topic": "Work Done by Variable Force",
+      "q": "A person pushes a box on a rough horizontal platform surface. He applies a force of $200 \\text{ N}$ over a distance of $15 \\text{ m}$. Thereafter, he gets progressively tired and his applied force reduces linearly with distance to $100 \\text{ N}$. The total distance through which the box has been moved is $30 \\text{ m}$. What is the work done by the person during the total movement of the box? [JEE Main 2020]",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Work done is the area under the force-displacement graph. For the first $15\\text{ m}$, the force is constant at $200\\text{ N}$. $W_1 = F \\times d = 200 \\times 15 = 3000\\text{ J}$.<br><b>Step 2:</b> For the next $15\\text{ m}$ (from $15\\text{ m}$ to $30\\text{ m}$), the force linearly decreases from $200\\text{ N}$ to $100\\text{ N}$. This forms a trapezium on the F-x graph.<br><b>Step 3:</b> Work done in this segment is the area of the trapezium: $W_2 = \\frac{1}{2}(200 + 100) \\times 15 = 150 \\times 15 = 2250\\text{ J}$. Total work $W = 3000 + 2250 = 5250\\text{ J}$.",
+      "options": [
+        "$5250 \\text{ J}$",
+        "$2780 \\text{ J}$",
+        "$3280 \\text{ J}$",
+        "$5690 \\text{ J}$"
+      ]
+    },
+    {
+      "id": "Q8",
+      "type": "mcq",
+      "sourceChapter": "Work, Energy and Power",
+      "topic": "Power in Circular Motion",
+      "q": "A particle of mass $m$ is moving in a circular path of constant radius $r$ such that its centripetal acceleration $a_c$ is varying with time $t$ as $a_c = k^2 r t^2$. The power is",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The centripetal acceleration is given by $a_c = \\frac{v^2}{r}$. Equating this to the given expression: $\\frac{v^2}{r} = k^2 r t^2 \\implies v^2 = k^2 r^2 t^2 \\implies v = krt$.<br><b>Step 2:</b> Tangential acceleration is the rate of change of speed: $a_t = \\frac{dv}{dt} = \\frac{d}{dt}(krt) = kr$. The tangential force is $F_t = ma_t = mkr$.<br><b>Step 3:</b> The centripetal force does zero work. Power is delivered only by the tangential force: $P = F_t \\cdot v = (mkr)(krt) = mk^2r^2t$.",
+      "options": [
+        "$2\\pi m k^2 r^2 t$",
+        "$m k^2 r^2 t$",
+        "$\\frac{m k^4 r^2 t^5}{3}$",
+        "zero"
+      ]
+    },
+    {
+      "id": "Q9",
+      "type": "mcq",
+      "sourceChapter": "Work, Energy and Power",
+      "topic": "Power",
+      "q": "An automobile weighing $1200 \\text{ kg}$ climbs up a hill that rises $1$ in $20$. Neglecting frictional effects, the minimum power developed by the engine is $9000 \\text{ W}$. If $g = 10 \\text{ ms}^{-2}$, then the velocity of the automobile is",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> \"Rises $1$ in $20$\" means the sine of the angle of inclination is $\\sin\\theta = \\frac{1}{20}$.<br><b>Step 2:</b> To maintain a constant minimum velocity up the hill, the engine's driving force must balance the component of gravity down the incline: $F = mg \\sin\\theta = 1200 \\times 10 \\times \\frac{1}{20} = 600\\text{ N}$.<br><b>Step 3:</b> Power is given by $P = Fv$. So, $9000 = 600v \\implies v = 15\\text{ m/s}$. Converting to $\\text{km/h}$: $15 \\times \\frac{18}{5} = 54\\text{ km/h}$.",
+      "options": [
+        "$36 \\text{ kmh}^{-1}$",
+        "$54 \\text{ kmh}^{-1}$",
+        "$72 \\text{ kmh}^{-1}$",
+        "$90 \\text{ kmh}^{-1}$"
+      ]
     }
   ]
 }
