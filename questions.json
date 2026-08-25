@@ -473,7 +473,7 @@
       "type": "mcq",
       "sourceChapter": "Work, Energy and Power",
       "topic": "Work Done by Variable Force",
-      "q": "A person pushes a box on a rough horizontal platform surface. He applies a force of $200 \\text{ N}$ over a distance of $15 \\text{ m}$. Thereafter, he gets progressively tired and his applied force reduces linearly with distance to $100 \\text{ N}$. The total distance through which the box has been moved is $30 \\text{ m}$. What is the work done by the person during the total movement of the box? [JEE Main 2020]",
+      "q": "A person pushes a box on a rough horizontal platform surface. He applies a force of $200 \\text{ N}$ over a distance of $15 \\text{ m}$. Thereafter, he gets progressively tired and his applied force reduces linearly with distance to $100 \\text{ N}$. The total distance through which the box has been moved is $30 \\text{ m}$. What is the work done by the person during the total movement of the box?",
       "imgUrl": "",
       "correct": 0,
       "sol": "<b>Step 1:</b> Work done is the area under the force-displacement graph. For the first $15\\text{ m}$, the force is constant at $200\\text{ N}$. $W_1 = F \\times d = 200 \\times 15 = 3000\\text{ J}$.<br><b>Step 2:</b> For the next $15\\text{ m}$ (from $15\\text{ m}$ to $30\\text{ m}$), the force linearly decreases from $200\\text{ N}$ to $100\\text{ N}$. This forms a trapezium on the F-x graph.<br><b>Step 3:</b> Work done in this segment is the area of the trapezium: $W_2 = \\frac{1}{2}(200 + 100) \\times 15 = 150 \\times 15 = 2250\\text{ J}$. Total work $W = 3000 + 2250 = 5250\\text{ J}$.",
