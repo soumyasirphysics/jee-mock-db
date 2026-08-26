@@ -457,7 +457,7 @@
       "type": "mcq",
       "sourceChapter": "Work, Energy and Power",
       "topic": "Work-Energy Theorem",
-      "q": "A force acts on a $2 \\text{ kg}$ object, so that its position is given as a function of time as $x = 3t^2 + 5$. What is the work done by this force in first $5 \\text{ s}$? [JEE Main 2019]",
+      "q": "A force acts on a $2 \\text{ kg}$ object, so that its position is given as a function of time as $x = 3t^2 + 5$. What is the work done by this force in first $5 \\text{ s}$?",
       "imgUrl": "",
       "correct": 1,
       "sol": "<b>Step 1:</b> The velocity of the object is the rate of change of position: $v = \\frac{dx}{dt} = \\frac{d}{dt}(3t^2 + 5) = 6t$.<br><b>Step 2:</b> Find the initial and final velocities. At $t = 0$, $v_i = 0$. At $t = 5\\text{ s}$, $v_f = 6(5) = 30\\text{ m/s}$.<br><b>Step 3:</b> According to the Work-Energy Theorem, $W = \\Delta K = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2 = \\frac{1}{2}(2)(30)^2 - 0 = 900\\text{ J}$.",
@@ -553,7 +553,7 @@
       "type": "mcq",
       "sourceChapter": "Gravitation",
       "topic": "Gravitational Field of Continuous Bodies",
-      "q": "A solid sphere of mass $M$ and radius $a$ is surrounded by a uniform concentric spherical shell of thickness $2a$ and $2M$. The gravitational field at distance $3a$ from the centre will be [JEE Main 2019]",
+      "q": "A solid sphere of mass $M$ and radius $a$ is surrounded by a uniform concentric spherical shell of thickness $2a$ and $2M$. The gravitational field at distance $3a$ from the centre will be",
       "imgUrl": "",
       "correct": 2,
       "sol": "<b>Step 1:</b> The point at a distance of $3a$ from the center lies exactly on the outer surface of the surrounding spherical shell (since inner radius is $a$ and thickness is $2a$).<br><b>Step 2:</b> By Newton's Shell Theorem, the gravitational field outside or on the surface of spherically symmetric mass distributions is equivalent to a point mass at the center containing all the enclosed mass.<br><b>Step 3:</b> Total enclosed mass is $M_{total} = M + 2M = 3M$. The field is $E = \\frac{G M_{total}}{r^2} = \\frac{G(3M)}{(3a)^2} = \\frac{3GM}{9a^2} = \\frac{GM}{3a^2}$.",
@@ -569,7 +569,7 @@
       "type": "mcq",
       "sourceChapter": "Gravitation",
       "topic": "Orbits and Kepler's Laws",
-      "q": "A satellite is moving in a low nearly circular orbit around the earth. Its radius is roughly equal to that of the earth's radius $R_e$. By firing rockets attached to it, its speed is instantaneously increased in the direction of its motion, so that it becomes $\\sqrt{\\frac{3}{2}}$ times larger. Due to this, the farthest distance from the centre of the earth that the satellite reaches is $R$. Value of $R$ is [JEE Main 2020]",
+      "q": "A satellite is moving in a low nearly circular orbit around the earth. Its radius is roughly equal to that of the earth's radius $R_e$. By firing rockets attached to it, its speed is instantaneously increased in the direction of its motion, so that it becomes $\\sqrt{\\frac{3}{2}}$ times larger. Due to this, the farthest distance from the centre of the earth that the satellite reaches is $R$. Value of $R$ is",
       "imgUrl": "",
       "correct": 2,
       "sol": "<b>Step 1:</b> Initial circular speed is $v_0 = \\sqrt{\\frac{GM}{R_e}}$. New speed at perigee $R_e$ is $v_p = \\sqrt{\\frac{3GM}{2R_e}}$. Let the farthest distance (apogee) be $R$ with speed $v_a$.<br><b>Step 2:</b> Conserve angular momentum ($m v_p R_e = m v_a R \\implies v_a = v_p \\frac{R_e}{R}$) and mechanical energy: $\\frac{1}{2}mv_p^2 - \\frac{GMm}{R_e} = \\frac{1}{2}mv_a^2 - \\frac{GMm}{R}$.<br><b>Step 3:</b> Substitute $v_p$ and $v_a$: $\\frac{3GM}{4R_e} - \\frac{GM}{R_e} = \\frac{3GM R_e}{4R^2} - \\frac{GM}{R}$. Dividing by $GM$ yields $-\\frac{1}{4R_e} = \\frac{3R_e}{4R^2} - \\frac{1}{R}$. Solving the quadratic equation for $R$ gives $R = 3R_e$.",
@@ -578,6 +578,86 @@
         "$2.5R_e$",
         "$3R_e$",
         "$2R_e$"
+      ]
+    },
+    {
+      "id": "Q14",
+      "type": "mcq",
+      "sourceChapter": "Electromagnetic Induction",
+      "topic": "Motional EMF",
+      "q": "In a uniform magnetic field of induction $B$ a wire in the form of a semicircle of radius $r$ rotates about the diameter of the circle with an angular frequency $\\omega$. The axis of rotation is perpendicular to the field. If the total resistance of the circuit is $R$, the mean power generated per period of rotation is",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The area of the semicircular loop is $A = \\frac{\\pi r^2}{2}$. As it rotates, the magnetic flux through the loop is $\\Phi = B A \\cos(\\omega t)$.<br><b>Step 2:</b> The induced EMF is given by Faraday's law: $e = -\\frac{d\\Phi}{dt} = B A \\omega \\sin(\\omega t) = \\frac{B \\pi r^2 \\omega}{2} \\sin(\\omega t)$.<br><b>Step 3:</b> The instantaneous power is $P = \\frac{e^2}{R} = \\frac{(B \\pi r^2 \\omega)^2}{4R} \\sin^2(\\omega t)$. The mean power over a full cycle uses $\\langle \\sin^2(\\omega t) \\rangle = \\frac{1}{2}$, giving $P_{mean} = \\frac{(B \\pi r^2 \\omega)^2}{8R}$.",
+      "options": [
+        "$\\frac{(B\\pi r\\omega)^2}{2R}$",
+        "$\\frac{(B\\pi r^2\\omega)^2}{8R}$",
+        "$\\frac{B\\pi r^2\\omega}{2R}$",
+        "$\\frac{(B\\pi r\\omega^2)^2}{8R}$"
+      ]
+    },
+    {
+      "id": "Q15",
+      "type": "mcq",
+      "sourceChapter": "Electromagnetic Induction",
+      "topic": "Faraday's and Lenz's Law",
+      "q": "A conducting wire frame is placed in a magnetic field which is directed into the paper. The magnetic field is increasing at a constant rate. The directions of induced current in wires AB and CD are",
+      "imgUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhLWL-FLQ_Tfq1uXMrxhZfQ0dOaDc43BbAdJd578b0mB2P3krotAwaPLLGyJIiN5erJSF5TbzVvVooXHsdNbqN6Yz5aPR1jGJg7A-fMKsVQiat6S1anyTV5mAZcYlmHDgHpaxU8tnTGk8yTyygZDAfBcCpMqPfA_msl_M1oSVvgK3tAEQeaf_HOu7h32vuy",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The wire frame forms a figure-8 with two loops. The right loop (with wire CD) has a significantly larger area than the left loop (with wire AB).<br><b>Step 2:</b> By Faraday's Law, the net induced EMF is determined by the larger loop. The inward magnetic field is increasing, so by Lenz's Law, the induced current must create an outward field in the larger loop, meaning it flows counter-clockwise (from D to C).<br><b>Step 3:</b> The current continues its path through the crossing point into the smaller loop. A counter-clockwise flow in the right loop naturally traces a clockwise path in the left loop, flowing from A to B.",
+      "options": [
+        "B to A and D to C",
+        "A to B and C to D",
+        "A to B and D to C",
+        "B to A and C to D"
+      ]
+    },
+    {
+      "id": "Q16",
+      "type": "mcq",
+      "sourceChapter": "Electromagnetic Induction",
+      "topic": "Faraday's Law",
+      "q": "A thin circular ring of area $A$ is held perpendicular to a uniform magnetic field of induction $B$. A small cut is made in the ring and a galvanometer is connected across the ends such that the total resistance of the circuit is $R$. When the ring is suddenly squeezed to zero area, the charge flowing through the galvanometer is",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The initial magnetic flux passing through the circular ring is $\\Phi_i = B \\cdot A = AB$.<br><b>Step 2:</b> When the ring is squeezed to zero area, the final magnetic flux becomes $\\Phi_f = 0$. The total change in flux is $\\Delta \\Phi = AB$.<br><b>Step 3:</b> The total charge $q$ that flows through a circuit due to a change in magnetic flux is given by $q = \\frac{\\Delta \\Phi}{R}$. Therefore, $q = \\frac{AB}{R}$.",
+      "options": [
+        "$\\frac{BR}{A}$",
+        "$\\frac{AB}{R}$",
+        "$ABR$",
+        "$\\frac{B^2 A}{R^2}$"
+      ]
+    },
+    {
+      "id": "Q17",
+      "type": "mcq",
+      "sourceChapter": "Electromagnetic Induction",
+      "topic": "Mutual Inductance",
+      "q": "Two coils are at fixed locations. The coil 1 has no current and the current in coil 2 increases at the rate of $15.0 \\text{ A s}^{-1}$, the emf in coil 1 is $25 \\text{ mV}$, when coil 2 has no current and coil 1 has a current of $3.6 \\text{ A}$, the flux linkage on coil 2 is",
+      "imgUrl": "",
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The induced emf in coil 1 due to the changing current in coil 2 defines their mutual inductance: $e_1 = M \\frac{di_2}{dt}$.<br><b>Step 2:</b> Calculate the mutual inductance $M$: $25 \\times 10^{-3} = M \\times 15.0 \\implies M = \\frac{25 \\times 10^{-3}}{15} = \\frac{5}{3} \\times 10^{-3} \\text{ H}$.<br><b>Step 3:</b> The flux linkage in coil 2 due to a steady current in coil 1 is $N_2 \\Phi_2 = M i_1$. Substituting the values: $N_2 \\Phi_2 = (\\frac{5}{3} \\times 10^{-3}) \\times 3.6 = 6.0 \\times 10^{-3} \\text{ Wb} = 6.00 \\text{ m Wb}$.",
+      "options": [
+        "$16 \\text{ m Wb}$",
+        "$10 \\text{ m Wb}$",
+        "$4.00 \\text{ m Wb}$",
+        "$6.00 \\text{ m Wb}$"
+      ]
+    },
+    {
+      "id": "Q18",
+      "type": "mcq",
+      "sourceChapter": "Electromagnetic Induction",
+      "topic": "Self Inductance",
+      "q": "Two different coils have self-inductance $L_1 = 8\\text{mH}, L_2 = 2\\text{mH}$. The current in one coil is increased at a constant rate. The current in the second coil is also increased at the same rate. At a certain instant of time, the power given to the two coils is the same. as the time the current, the induced voltage and the energy stored in the first coil are $i_1, V_1$ and $W_1$ respectively. Corresponding values for the second coil at the same instant are $i_2, V_2$ and $W_2$ respectively. Then",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The rate of change of current is identical: $\\frac{di_1}{dt} = \\frac{di_2}{dt} = k$. The induced voltages are $V_1 = L_1 k$ and $V_2 = L_2 k$, giving the ratio $\\frac{V_1}{V_2} = \\frac{L_1}{L_2} = \\frac{8}{2} = 4$.<br><b>Step 2:</b> The power supplied to an inductor is $P = V \\cdot i$. Since $P_1 = P_2$, we have $V_1 i_1 = V_2 i_2$. Substituting $V_1 = 4V_2$ gives $4V_2 i_1 = V_2 i_2 \\implies \\frac{i_1}{i_2} = \\frac{1}{4}$.<br><b>Step 3:</b> Verify the energy ratio as a bonus: $W = \\frac{1}{2}Li^2$. The ratio is $\\frac{W_2}{W_1} = \\frac{L_2 i_2^2}{L_1 i_1^2} = \\left(\\frac{2}{8}\\right) \\times (4)^2 = 4$. (Note: Both options A and C are mathematically correct statements derived from the conditions; option A is mapped as the primary answer).",
+      "options": [
+        "$\\frac{i_1}{i_2} = \\frac{1}{4}$",
+        "$\\frac{i_1}{i_2} = \\frac{1}{8}$",
+        "$\\frac{W_2}{W_1} = \\frac{4}{1}$",
+        "$\\frac{W_2}{W_1} = \\frac{8}{1}$"
       ]
     }
   ]
