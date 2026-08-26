@@ -515,6 +515,70 @@
         "$72 \\text{ kmh}^{-1}$",
         "$90 \\text{ kmh}^{-1}$"
       ]
+    },
+    {
+      "id": "Q10",
+      "type": "mcq",
+      "sourceChapter": "Gravitation",
+      "topic": "Planetary Motion",
+      "q": "Imagine a light planet revolving around a very massive star in a circular orbit of radius $R$ with a period of revolution $T$. If the gravitational force of attraction between the planet and the star is proportional to $R^{-3/2}$, then $T^2$ is proportional to",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> For a circular orbit, the necessary centripetal force is provided by the gravitational force: $F_c = m \\omega^2 R = m \\left(\\frac{2\\pi}{T}\\right)^2 R$.<br><b>Step 2:</b> We are given that the gravitational force $F \\propto R^{-3/2}$. Equating this to the centripetal force gives $\\frac{R}{T^2} \\propto R^{-3/2}$.<br><b>Step 3:</b> Rearranging for $T^2$, we get $T^2 \\propto R \\cdot R^{3/2} \\implies T^2 \\propto R^{5/2}$.",
+      "options": [
+        "$R^3$",
+        "$R^{5/2}$",
+        "$R^{3/2}$",
+        "$R^{7/2}$"
+      ]
+    },
+    {
+      "id": "Q11",
+      "type": "mcq",
+      "sourceChapter": "Gravitation",
+      "topic": "Gravitational Field and Potential",
+      "q": "The gravitational field due to a mass distribution is $E = k/x^3$ in the $x$-direction ($k$ is a constant). Taking the gravitational potential to be zero at infinity, its value at a distance $x/\\sqrt{2}$ is",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The gravitational potential $V$ is related to the gravitational field $E$ by the relation $V = -\\int E \\, dx$.<br><b>Step 2:</b> Integrating the given field from infinity to $x$: $V(x) = -\\int_{\\infty}^{x} \\frac{k}{x^3} \\, dx = -k \\left[ \\frac{x^{-2}}{-2} \\right]_{\\infty}^{x} = \\frac{k}{2x^2}$.<br><b>Step 3:</b> Substitute the new distance $(x/\\sqrt{2})$ into the potential expression: $V(x/\\sqrt{2}) = \\frac{k}{2(x/\\sqrt{2})^2} = \\frac{k}{2(x^2/2)} = \\frac{k}{x^2}$.",
+      "options": [
+        "$k/x$",
+        "$k/2x$",
+        "$k/x^2$",
+        "$k/2x^2$"
+      ]
+    },
+    {
+      "id": "Q12",
+      "type": "mcq",
+      "sourceChapter": "Gravitation",
+      "topic": "Gravitational Field of Continuous Bodies",
+      "q": "A solid sphere of mass $M$ and radius $a$ is surrounded by a uniform concentric spherical shell of thickness $2a$ and $2M$. The gravitational field at distance $3a$ from the centre will be [JEE Main 2019]",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The point at a distance of $3a$ from the center lies exactly on the outer surface of the surrounding spherical shell (since inner radius is $a$ and thickness is $2a$).<br><b>Step 2:</b> By Newton's Shell Theorem, the gravitational field outside or on the surface of spherically symmetric mass distributions is equivalent to a point mass at the center containing all the enclosed mass.<br><b>Step 3:</b> Total enclosed mass is $M_{total} = M + 2M = 3M$. The field is $E = \\frac{G M_{total}}{r^2} = \\frac{G(3M)}{(3a)^2} = \\frac{3GM}{9a^2} = \\frac{GM}{3a^2}$.",
+      "options": [
+        "$\\frac{GM}{9a^2}$",
+        "$\\frac{2GM}{9a^2}$",
+        "$\\frac{GM}{3a^2}$",
+        "$\\frac{2GM}{3a^2}$"
+      ]
+    },
+    {
+      "id": "Q13",
+      "type": "mcq",
+      "sourceChapter": "Gravitation",
+      "topic": "Orbits and Kepler's Laws",
+      "q": "A satellite is moving in a low nearly circular orbit around the earth. Its radius is roughly equal to that of the earth's radius $R_e$. By firing rockets attached to it, its speed is instantaneously increased in the direction of its motion, so that it becomes $\\sqrt{\\frac{3}{2}}$ times larger. Due to this, the farthest distance from the centre of the earth that the satellite reaches is $R$. Value of $R$ is [JEE Main 2020]",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Initial circular speed is $v_0 = \\sqrt{\\frac{GM}{R_e}}$. New speed at perigee $R_e$ is $v_p = \\sqrt{\\frac{3GM}{2R_e}}$. Let the farthest distance (apogee) be $R$ with speed $v_a$.<br><b>Step 2:</b> Conserve angular momentum ($m v_p R_e = m v_a R \\implies v_a = v_p \\frac{R_e}{R}$) and mechanical energy: $\\frac{1}{2}mv_p^2 - \\frac{GMm}{R_e} = \\frac{1}{2}mv_a^2 - \\frac{GMm}{R}$.<br><b>Step 3:</b> Substitute $v_p$ and $v_a$: $\\frac{3GM}{4R_e} - \\frac{GM}{R_e} = \\frac{3GM R_e}{4R^2} - \\frac{GM}{R}$. Dividing by $GM$ yields $-\\frac{1}{4R_e} = \\frac{3R_e}{4R^2} - \\frac{1}{R}$. Solving the quadratic equation for $R$ gives $R = 3R_e$.",
+      "options": [
+        "$4R_e$",
+        "$2.5R_e$",
+        "$3R_e$",
+        "$2R_e$"
+      ]
     }
   ]
 }
