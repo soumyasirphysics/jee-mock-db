@@ -652,13 +652,95 @@
       "q": "Two different coils have self-inductance $L_1 = 8\\text{mH}, L_2 = 2\\text{mH}$. The current in one coil is increased at a constant rate. The current in the second coil is also increased at the same rate. At a certain instant of time, the power given to the two coils is the same. as the time the current, the induced voltage and the energy stored in the first coil are $i_1, V_1$ and $W_1$ respectively. Corresponding values for the second coil at the same instant are $i_2, V_2$ and $W_2$ respectively. Then",
       "imgUrl": "",
       "correct": 0,
-      "sol": "<b>Step 1:</b> The rate of change of current is identical: $\\frac{di_1}{dt} = \\frac{di_2}{dt} = k$. The induced voltages are $V_1 = L_1 k$ and $V_2 = L_2 k$, giving the ratio $\\frac{V_1}{V_2} = \\frac{L_1}{L_2} = \\frac{8}{2} = 4$.<br><b>Step 2:</b> The power supplied to an inductor is $P = V \\cdot i$. Since $P_1 = P_2$, we have $V_1 i_1 = V_2 i_2$. Substituting $V_1 = 4V_2$ gives $4V_2 i_1 = V_2 i_2 \\implies \\frac{i_1}{i_2} = \\frac{1}{4}$.<br><b>Step 3:</b> Verify the energy ratio as a bonus: $W = \\frac{1}{2}Li^2$. The ratio is $\\frac{W_2}{W_1} = \\frac{L_2 i_2^2}{L_1 i_1^2} = \\left(\\frac{2}{8}\\right) \\times (4)^2 = 4$. (Note: Both options A and C are mathematically correct statements derived from the conditions; option A is mapped as the primary answer).",
+      "sol": "<b>Step 1:</b> The rate of change of current is identical: $\\frac{di_1}{dt} = \\frac{di_2}{dt} = k$. The induced voltages are $V_1 = L_1 k$ and $V_2 = L_2 k$, giving the ratio $\\frac{V_1}{V_2} = \\frac{L_1}{L_2} = \\frac{8}{2} = 4$.<br><b>Step 2:</b> The power supplied to an inductor is $P = V \\cdot i$. Since $P_1 = P_2$, we have $V_1 i_1 = V_2 i_2$. Substituting $V_1 = 4V_2$ gives $4V_2 i_1 = V_2 i_2 \\implies \\frac{i_1}{i_2} = \\frac{1}{4}$.<br><b>Step 3:</b> Verify the energy ratio as a bonus: $W = \\frac{1}{2}Li^2$. The ratio is $\\frac{W_2}{W_1} = \\frac{L_2 i_2^2}{L_1 i_1^2} = \\left(\\frac{2}{8}\\right) \\times (4)^2 = 4$.",
       "options": [
         "$\\frac{i_1}{i_2} = \\frac{1}{4}$",
         "$\\frac{i_1}{i_2} = \\frac{1}{8}$",
-        "$\\frac{W_2}{W_1} = \\frac{4}{1}$",
+        "$\\frac{W_2}{W_1} = \\frac{5}{1}$",
         "$\\frac{W_2}{W_1} = \\frac{8}{1}$"
       ]
+    },
+    {
+      "id": "Q19",
+      "type": "mcq",
+      "sourceChapter": "Magnetic Effects of Current",
+      "topic": "Motion of Charged Particle",
+      "q": "A particle of mass $m$ and charge $q$ moves with a constant velocity $v$ along the positive $x$-direction. It enters a region containing a uniform magnetic field $B$ directed along the negative $z$-direction, extending from $x = a$ to $x = b$. The minimum value of $v$ required so that the particle can just enter the region $x > b$ is",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The width of the magnetic field region is $d = b - a$. The perpendicular magnetic field exerts a force that causes the particle to move in a circular arc.<br><b>Step 2:</b> For the particle to just cross the magnetic field region and reach $x > b$, the radius of its circular path $R$ must be greater than or equal to the width of the region. So, $R \\ge b - a$.<br><b>Step 3:</b> The radius of a charged particle's path in a magnetic field is $R = \\frac{mv}{qB}$. Substituting this condition gives $\\frac{mv}{qB} \\ge b - a$, yielding the minimum velocity $v_{min} = \\frac{q(b-a)B}{m}$.",
+      "options": [
+        "$\\frac{qbB}{m}$",
+        "$\\frac{q(b-a)B}{m}$",
+        "$\\frac{qaB}{m}$",
+        "$\\frac{q(b+a)B}{2m}$"
+      ]
+    },
+    {
+      "id": "Q20",
+      "type": "mcq",
+      "sourceChapter": "Magnetic Effects of Current",
+      "topic": "Biot-Savart Law",
+      "q": "Consider two thin identical conducting wires covered with very thin insulating material. One of the wires is bent into a loop and produces magnetic field $B_1$, at its centre when a current I passes through it. The second wire is bent into a coil with three identical loops adjacent to each other produces magnetic field $B_2$ at the centre of the loops when current $\\frac{I}{3}$ passes through it. The ratio $B_1 : B_2$ is :",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Let the total length of each wire be $L$. For the first wire bent into a single loop ($N=1$), $L = 2\\pi R_1$, so its radius is $R_1 = \\frac{L}{2\\pi}$. The magnetic field at its center is $B_1 = \\frac{\\mu_0 I}{2R_1}$.<br><b>Step 2:</b> The second wire is bent into $N=3$ loops, so $L = 3(2\\pi R_2)$, which gives a new radius $R_2 = \\frac{L}{6\\pi} = \\frac{R_1}{3}$. The field at the center is given by $B_2 = \\frac{\\mu_0 N I_2}{2R_2}$.<br><b>Step 3:</b> Substitute $N=3$, the new current $I_2 = \\frac{I}{3}$, and $R_2 = \\frac{R_1}{3}$ into the formula: $B_2 = \\frac{\\mu_0 (3)(I/3)}{2(R_1/3)} = \\frac{3 \\mu_0 I}{2R_1} = 3B_1$. Therefore, the ratio $B_1 : B_2 = 1 : 3$.",
+      "options": [
+        "$1 : 1$",
+        "$1 : 3$",
+        "$1 : 9$",
+        "$9 : 1$"
+      ]
+    },
+    {
+      "id": "Q21",
+      "type": "integer",
+      "sourceChapter": "Magnetic Effects of Current",
+      "topic": "Magnetic Field of Long Wire",
+      "q": "Two parallel long wires $A$ and $B$ carry currents $i_1$ and $i_2$ ($< i_1$). When $i_1$ and $i_2$ are in the same direction, the magnetic field at a point mid-way between the wires is $10 \\mu\\text{T}$. If $i_2$ is reversed, the field becomes $30 \\mu\\text{T}$. The ratio $i_1 / i_2$ is",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Let $d$ be the distance from the midpoint to each wire. The magnetic field due to a long wire is $B = \\frac{\\mu_0 i}{2\\pi d}$.<br><b>Step 2:</b> When currents are in the same direction, the fields oppose each other: $B_1 - B_2 \\propto (i_1 - i_2) = 10$. When reversed, they add up: $B_1 + B_2 \\propto (i_1 + i_2) = 30$.<br><b>Step 3:</b> Dividing the equations gives $\\frac{i_1 + i_2}{i_1 - i_2} = 3$. Solving this yields $i_1 + i_2 = 3i_1 - 3i_2 \\implies 2i_1 = 4i_2$, so the ratio $i_1/i_2 = 2$."
+    },
+    {
+      "id": "Q22",
+      "type": "integer",
+      "sourceChapter": "Magnetic Effects of Current",
+      "topic": "Magnetic Field of Circular Coil",
+      "q": "Two concentric coils, each of radius equal to $2\\pi \\text{ cm}$, are placed at right angle to each other. Currents of $3 \\text{ A}$ and $4 \\text{ A}$ respectively, are flowing through the two coils. The magnetic induction at the centre of the coils will be $x \\times 10^{-5} \\text{ T}$. Find the value of $x$. (Take, $\\mu_0 = 4\\pi \\times 10^{-7} \\text{ Wb (Am)}^{-1}$)",
+      "imgUrl": "",
+      "correct": 5,
+      "sol": "<b>Step 1:</b> The magnetic field at the center of a circular coil is $B = \\frac{\\mu_0 I}{2r}$. The given radius is $r = 2\\pi \\times 10^{-2} \\text{ m}$.<br><b>Step 2:</b> Calculate the fields for each coil: $B_1 = \\frac{4\\pi \\times 10^{-7} \\times 3}{2 \\times 2\\pi \\times 10^{-2}} = 3 \\times 10^{-5} \\text{ T}$ and $B_2 = \\frac{4\\pi \\times 10^{-7} \\times 4}{2 \\times 2\\pi \\times 10^{-2}} = 4 \\times 10^{-5} \\text{ T}$.<br><b>Step 3:</b> Since the coils are perpendicular, their resulting magnetic fields at the center are also perpendicular to each other. $B_{net} = \\sqrt{B_1^2 + B_2^2} = \\sqrt{3^2 + 4^2} \\times 10^{-5} = 5 \\times 10^{-5} \\text{ T}$. Thus, $x = 5$."
+    },
+    {
+      "id": "Q23",
+      "type": "integer",
+      "sourceChapter": "Gravitation",
+      "topic": "Escape Velocity",
+      "q": "The radius in kilometre to which the present radius of earth ($R = 6400 \\text{ km}$) to be compressed, so that the escape velocity is increased to ten time is ...... km.",
+      "imgUrl": "",
+      "correct": 64,
+      "sol": "<b>Step 1:</b> The escape velocity from the surface of a planet is given by the formula $v_e = \\sqrt{\\frac{2GM}{R}}$.<br><b>Step 2:</b> We are given that the new escape velocity is $10$ times the original, so $v_e' = 10v_e$. Substituting the formula gives $\\sqrt{\\frac{2GM}{R'}} = 10 \\sqrt{\\frac{2GM}{R}}$.<br><b>Step 3:</b> Squaring both sides yields $\\frac{1}{R'} = \\frac{100}{R}$, which means the new radius is $R' = \\frac{R}{100}$. For $R = 6400 \\text{ km}$, $R' = 64 \\text{ km}$."
+    },
+    {
+      "id": "Q24",
+      "type": "integer",
+      "sourceChapter": "Work, Energy and Power",
+      "topic": "Circular Motion",
+      "q": "A particle of mass $1 \\text{ kg}$ is moving on a circular path of radius $1 \\text{ m}$. Its kinetic energy is $K = bt^4$, where $b = 1 \\text{ J/s}^4$. The force acting on the particle at $t = 1 \\text{ s}$ is $(2x)^{1/2}$ (in standard units). The value of $x$ is ......... .",
+      "imgUrl": "",
+      "correct": 6,
+      "sol": "<b>Step 1:</b> The kinetic energy is $K = \\frac{1}{2}mv^2 = bt^4$. With $m=1$ and $b=1$, we get $v^2 = 2t^4$, so the speed is $v = \\sqrt{2}t^2$.<br><b>Step 2:</b> Calculate the tangential and centripetal accelerations at $t = 1 \\text{ s}$. Tangential acceleration $a_t = \\frac{dv}{dt} = 2\\sqrt{2}t = 2\\sqrt{2} \\text{ m/s}^2$. Centripetal acceleration $a_c = \\frac{v^2}{R} = \\frac{2(1)^4}{1} = 2 \\text{ m/s}^2$.<br><b>Step 3:</b> The net force is $F = m \\sqrt{a_t^2 + a_c^2} = (1) \\sqrt{(2\\sqrt{2})^2 + 2^2} = \\sqrt{8 + 4} = \\sqrt{12} \\text{ N}$. Equating this magnitude to $\\sqrt{2x}$ gives $2x = 12 \\implies x = 6$."
+    },
+    {
+      "id": "Q25",
+      "type": "integer",
+      "sourceChapter": "Friction",
+      "topic": "Motion on Inclined Plane",
+      "q": "A block starts moving up an inclined plane of inclination $30^\\circ$ with an initial velocity of $v_0$. It comes back to its initial position with velocity $v_0/2$. The value of the coefficient of kinetic friction between the block and the inclined plane is close to $\\frac{I}{1000}$, the nearest integer to $I$ is ......... .",
+      "imgUrl": "",
+      "correct": 346,
+      "sol": "<b>Step 1:</b> The deceleration while moving up is $a_{up} = g(\\sin 30^\\circ + \\mu\\cos 30^\\circ)$. The distance traveled up the incline is $s = \\frac{v_0^2}{2a_{up}}$.<br><b>Step 2:</b> The acceleration moving down is $a_{down} = g(\\sin 30^\\circ - \\mu\\cos 30^\\circ)$. The velocity at the bottom is $v = v_0/2$, so the same distance is $s = \\frac{(v_0/2)^2}{2a_{down}}$.<br><b>Step 3:</b> Equating the distances gives $\\frac{v_0^2}{2a_{up}} = \\frac{v_0^2/4}{2a_{down}} \\implies a_{up} = 4a_{down}$. Substituting accelerations yields $\\sin 30^\\circ + \\mu\\cos 30^\\circ = 4(\\sin 30^\\circ - \\mu\\cos 30^\\circ)$. Solving this gives $\\mu = \\frac{3}{5}\\tan 30^\\circ = \\frac{\\sqrt{3}}{5} \\approx 0.3464$. Thus, $I = 346$."
     }
   ]
 }
