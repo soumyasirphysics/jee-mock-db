@@ -742,5 +742,377 @@
       "correct": 346,
       "sol": "<b>Step 1:</b> The deceleration while moving up is $a_{up} = g(\\sin 30^\\circ + \\mu\\cos 30^\\circ)$. The distance traveled up the incline is $s = \\frac{v_0^2}{2a_{up}}$.<br><b>Step 2:</b> The acceleration moving down is $a_{down} = g(\\sin 30^\\circ - \\mu\\cos 30^\\circ)$. The velocity at the bottom is $v = v_0/2$, so the same distance is $s = \\frac{(v_0/2)^2}{2a_{down}}$.<br><b>Step 3:</b> Equating the distances gives $\\frac{v_0^2}{2a_{up}} = \\frac{v_0^2/4}{2a_{down}} \\implies a_{up} = 4a_{down}$. Substituting accelerations yields $\\sin 30^\\circ + \\mu\\cos 30^\\circ = 4(\\sin 30^\\circ - \\mu\\cos 30^\\circ)$. Solving this gives $\\mu = \\frac{3}{5}\\tan 30^\\circ = \\frac{\\sqrt{3}}{5} \\approx 0.3464$. Thus, $I = 346$."
     }
+  ],
+  "JEE_MOCK_2026_03": [
+    {
+      "id": "Q1",
+      "type": "mcq",
+      "sourceChapter": "System of Particles & Rotational Motion",
+      "topic": "Rolling Motion",
+      "q": "A solid cylinder of mass $m$ and radius $R$ is placed on a rough horizontal plank of mass $M = 2m$. The plank is pulled by a constant horizontal force $F$. Assuming no slipping occurs between the cylinder and the plank, and the ground is frictionless, what is the acceleration of the center of mass of the cylinder?",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Let $a_p$ be plank's acceleration and $a_c$ be cylinder's cm acceleration. For pure rolling on the plank, the relative acceleration dictates $\\alpha R = a_p - a_c$.<br><b>Step 2:</b> Write Newton's equations: $F - f = 2m a_p$ (plank), $f = m a_c$ (cylinder translation), and $fR = \\frac{1}{2}mR^2 \\alpha \\implies \\alpha R = 2 a_c$.<br><b>Step 3:</b> Substitute $\\alpha R$: $2 a_c = a_p - a_c \\implies a_p = 3 a_c$. Substitute into plank equation: $F - m a_c = 2m(3 a_c) = 6 m a_c \\implies F = 7 m a_c \\implies a_c = F/(7m)$.",
+      "options": [
+        "$F/3m$",
+        "$F/5m$",
+        "$F/7m$",
+        "$2F/7m$"
+      ]
+    },
+    {
+      "id": "Q2",
+      "type": "mcq",
+      "sourceChapter": "Properties of Matter",
+      "topic": "Surface Tension",
+      "q": "Two soap bubbles of radii $a$ and $b$ ($a > b$) coalesce to form a single larger bubble of radius $c$. If the external atmospheric pressure is $P_0$, the surface tension $T$ of the soap solution is given by:",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> When bubbles coalesce under isothermal conditions, the total number of moles of trapped air remains constant: $n_a + n_b = n_c \\implies P_a V_a + P_b V_b = P_c V_c$.<br><b>Step 2:</b> The pressure inside a soap bubble is $P_0 + 4T/R$ and volume is $\\frac{4}{3}\\pi R^3$. Substitute these into the conservation equation.<br><b>Step 3:</b> $(P_0 + 4T/a)a^3 + (P_0 + 4T/b)b^3 = (P_0 + 4T/c)c^3$. Expanding and rearranging for $T$ yields $T = \\frac{P_0(c^3 - a^3 - b^3)}{4(a^2 + b^2 - c^2)}$.",
+      "options": [
+        "$\\frac{P_0(c^3 - a^3 - b^3)}{4(a^2 + b^2 - c^2)}$",
+        "$\\frac{P_0(c^3 + a^3 + b^3)}{4(a^2 + b^2 + c^2)}$",
+        "$\\frac{P_0(c^2 - a^2 - b^2)}{4(a^3 + b^3 - c^3)}$",
+        "$\\frac{P_0(c^3 - a^3 - b^3)}{4(a^2 + b^2 + c^2)}$"
+      ]
+    },
+    {
+      "id": "Q3",
+      "type": "mcq",
+      "sourceChapter": "Magnetism and Matter",
+      "topic": "Earth's Magnetism",
+      "q": "The time period of a small bar magnet in a vibration magnetometer is $T$. If the magnet is cut into two equal halves perpendicular to its length and one half is placed in the magnetometer, what will be its new time period?",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The time period of a vibration magnetometer is $T = 2\\pi\\sqrt{I/MB}$, where $I = mL^2/12$ is the moment of inertia and $M$ is the magnetic moment.<br><b>Step 2:</b> Cutting the magnet in half perpendicular to its length halves its mass ($m'=m/2$) and length ($L'=L/2$), making $I' = \\frac{(m/2)(L/2)^2}{12} = I/8$.<br><b>Step 3:</b> The new magnetic moment is $M' = M/2$. The new time period is $T' = 2\\pi\\sqrt{\\frac{I/8}{(M/2)B}} = 2\\pi\\sqrt{\\frac{I}{4MB}} = \\frac{T}{2}$.",
+      "options": [
+        "$T/2$",
+        "$T/\\sqrt{2}$",
+        "$T/4$",
+        "$T/2\\sqrt{2}$"
+      ]
+    },
+    {
+      "id": "Q4",
+      "type": "mcq",
+      "sourceChapter": "Alternating Current",
+      "topic": "LCR Series Circuit",
+      "q": "An LCR series circuit has resistance $R = 100 \\Omega$, inductive reactance $X_L = 200 \\Omega$, and capacitive reactance $X_C = 100 \\Omega$. It is connected to an AC source $V(t) = 200\\sqrt{2} \\sin(100t)$. What is the time lag between the voltage and the current?",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> In an LCR circuit, the phase angle $\\phi$ between voltage and current is given by $\\tan\\phi = \\frac{X_L - X_C}{R}$.<br><b>Step 2:</b> Substitute the given values: $\\tan\\phi = \\frac{200 - 100}{100} = 1 \\implies \\phi = \\pi/4$ radians.<br><b>Step 3:</b> The phase difference $\\phi$ is related to the time lag $\\Delta t$ by $\\phi = \\omega \\Delta t$. From the voltage equation, $\\omega = 100$. Thus, $\\pi/4 = 100 \\Delta t \\implies \\Delta t = \\pi/400 \\text{ s}$.",
+      "options": [
+        "$\\pi/200 \\text{ s}$",
+        "$\\pi/400 \\text{ s}$",
+        "$\\pi/800 \\text{ s}$",
+        "$\\pi/100 \\text{ s}$"
+      ]
+    },
+    {
+      "id": "Q5",
+      "type": "mcq",
+      "sourceChapter": "Electromagnetic Waves",
+      "topic": "Radiation Pressure",
+      "q": "A plane electromagnetic wave of uniform intensity $I$ is incident on a perfectly reflecting flat surface. The angle of incidence is $\\theta$ (measured with respect to the normal). The radiation pressure exerted on the surface is:",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The energy incident on area $A$ in time $\\Delta t$ is $E = I (A \\cos\\theta) \\Delta t$. The magnitude of the incident momentum is $p = E/c$.<br><b>Step 2:</b> Upon perfect reflection, the change in the component of momentum normal to the surface is $\\Delta p_{normal} = 2p \\cos\\theta = \\frac{2IA\\cos^2\\theta \\Delta t}{c}$.<br><b>Step 3:</b> Radiation pressure is the normal force per unit area: $P = \\frac{F}{A} = \\frac{\\Delta p_{normal}}{A \\Delta t} = \\frac{2I}{c}\\cos^2\\theta$.",
+      "options": [
+        "$\\frac{2I}{c}\\cos\\theta$",
+        "$\\frac{I}{c}\\cos^2\\theta$",
+        "$\\frac{2I}{c}\\cos^2\\theta$",
+        "$\\frac{I}{c}\\cos\\theta$"
+      ]
+    },
+    {
+      "id": "Q6",
+      "type": "mcq",
+      "sourceChapter": "System of Particles & Rotational Motion",
+      "topic": "Collision & Rotation",
+      "q": "A uniform rod of mass $M$ and length $L$ lies at rest on a smooth horizontal table. A particle of mass $m = M/3$ moving with velocity $v$ perpendicular to the rod strikes one of its ends and sticks to it. The angular velocity of the system about its center of mass after the collision is:",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Find the new center of mass (CM) distance from the center of the rod: $x_{cm} = \\frac{M(0) + (M/3)(L/2)}{M + M/3} = \\frac{L}{8}$.<br><b>Step 2:</b> Calculate the moment of inertia of the system about the new CM: $I = M\\left(\\frac{L^2}{12} + (\\frac{L}{8})^2\\right) + \\frac{M}{3}\\left(\\frac{L}{2} - \\frac{L}{8}\\right)^2 = \\frac{7}{48}ML^2$.<br><b>Step 3:</b> Apply conservation of angular momentum about the CM. Initial angular momentum $L_i = (\\frac{M}{3})v(\\frac{3L}{8}) = \\frac{MvL}{8}$. Equating $L_i = I\\omega \\implies \\frac{MvL}{8} = \\frac{7}{48}ML^2 \\omega \\implies \\omega = \\frac{6v}{7L}$.",
+      "options": [
+        "$\\frac{3v}{7L}$",
+        "$\\frac{6v}{7L}$",
+        "$\\frac{4v}{7L}$",
+        "$\\frac{5v}{7L}$"
+      ]
+    },
+    {
+      "id": "Q7",
+      "type": "mcq",
+      "sourceChapter": "Properties of Matter",
+      "topic": "Fluid Dynamics",
+      "q": "A cylindrical vessel of cross-sectional area $A$ contains a liquid of density $\\rho$ up to a height $H$. A small hole of area $a$ ($a \\ll A$) is present at the bottom. A frictionless piston of mass $M$ rests on the surface of the liquid. The total time taken to completely empty the vessel is:",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> The effective head of the liquid is $y + H_0$, where $y$ is the instantaneous depth and $H_0 = \\frac{M}{A\\rho}$ is the equivalent head provided by the piston's weight. The efflux velocity is $v = \\sqrt{2g(y + H_0)}$.<br><b>Step 2:</b> Using the equation of continuity, $-A \\frac{dy}{dt} = a \\sqrt{2g(y + H_0)}$.<br><b>Step 3:</b> Rearrange and integrate from $y=H$ (at $t=0$) to $y=0$ (at $t=T$): $\\int_{H}^{0} \\frac{-dy}{\\sqrt{y + H_0}} = \\int_{0}^{T} \\frac{a}{A}\\sqrt{2g} dt \\implies \\frac{A}{a\\sqrt{2g}} [2\\sqrt{y+H_0}]_{0}^{H} = T \\implies T = \\frac{A}{a}\\sqrt{\\frac{2}{g}} \\left( \\sqrt{H + H_0} - \\sqrt{H_0} \\right)$.",
+      "options": [
+        "$\\frac{A}{a}\\sqrt{\\frac{2H}{g}}$",
+        "$\\frac{A}{a}\\sqrt{\\frac{2}{g}} \\left( \\sqrt{H + \\frac{M}{A\\rho}} \\right)$",
+        "$\\frac{A}{a}\\sqrt{\\frac{2}{g}} \\left( \\sqrt{H + \\frac{M}{A\\rho}} - \\sqrt{\\frac{M}{A\\rho}} \\right)$",
+        "$\\frac{A}{a}\\sqrt{\\frac{2}{g}} \\left( \\sqrt{H} + \\sqrt{\\frac{M}{A\\rho}} \\right)$"
+      ]
+    },
+    {
+      "id": "Q8",
+      "type": "mcq",
+      "sourceChapter": "Magnetism and Matter",
+      "topic": "Magnetic Properties",
+      "q": "A U-tube of uniform cross-section contains a paramagnetic liquid of density $\\rho$ and susceptibility $\\chi$ ($\\chi \\ll 1$). One arm of the tube is placed between the poles of an electromagnet producing a uniform magnetic field $B$, while the other arm is in a zero-field region. The meniscus in the magnetic field arm rises by a height $h$. Assuming $B \\approx \\mu_0 H$, the height $h$ is given by:",
+      "imgUrl": "",
+      "correct": 3,
+      "sol": "<b>Step 1:</b> The magnetic energy density in the paramagnetic liquid is $U_m = \\frac{1}{2} M \\cdot B = \\frac{1}{2} (\\chi H) (\\mu_0 H) = \\frac{\\chi B^2}{2\\mu_0}$.<br><b>Step 2:</b> This magnetic energy density manifests as a magnetic pressure that pulls the liquid into the stronger magnetic field region, creating an effective pressure difference $\\Delta P = \\frac{\\chi B^2}{2\\mu_0}$.<br><b>Step 3:</b> This pressure difference is balanced by the hydrostatic pressure of the liquid column of height $h$. Thus, $\\rho g h = \\frac{\\chi B^2}{2\\mu_0} \\implies h = \\frac{\\chi B^2}{2\\mu_0 \\rho g}$.",
+      "options": [
+        "$\\frac{\\chi B^2}{\\mu_0 \\rho g}$",
+        "$\\frac{2\\chi B^2}{\\mu_0 \\rho g}$",
+        "$\\frac{\\chi B^2}{4\\mu_0 \\rho g}$",
+        "$\\frac{\\chi B^2}{2\\mu_0 \\rho g}$"
+      ]
+    },
+    {
+      "id": "Q9",
+      "type": "mcq",
+      "sourceChapter": "Alternating Current",
+      "topic": "Resonant Circuits",
+      "q": "An inductor of inductance $L = 20 \\text{ mH}$, a resistor $R = 100 \\Omega$, and a capacitor $C = 50 \\mu\\text{F}$ are connected in series across an AC source $V = V_0 \\sin(\\omega t)$. The frequency $\\omega$ is varied until the average power dissipated is maximum. What is the Q-factor of this circuit, and at what angular frequency $\\omega_0$ does this maximum power occur?",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The average power is maximum at resonance, which occurs at the natural angular frequency $\\omega_0 = \\frac{1}{\\sqrt{LC}}$.<br><b>Step 2:</b> Substitute the given values into the frequency formula: $\\omega_0 = \\frac{1}{\\sqrt{20 \\times 10^{-3} \\times 50 \\times 10^{-6}}} = \\frac{1}{\\sqrt{1000 \\times 10^{-9}}} = \\frac{1}{\\sqrt{10^{-6}}} = 1000 \\text{ rad/s}$.<br><b>Step 3:</b> The Quality factor (Q-factor) is given by $Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}} = \\frac{1}{100}\\sqrt{\\frac{20 \\times 10^{-3}}{50 \\times 10^{-6}}} = \\frac{1}{100}\\sqrt{400} = \\frac{20}{100} = 0.2$.",
+      "options": [
+        "$Q = 0.2, \\omega_0 = 1000 \\text{ rad/s}$",
+        "$Q = 5.0, \\omega_0 = 1000 \\text{ rad/s}$",
+        "$Q = 0.2, \\omega_0 = 500 \\text{ rad/s}$",
+        "$Q = 5.0, \\omega_0 = 500 \\text{ rad/s}$"
+      ]
+    },
+    {
+      "id": "Q10",
+      "type": "mcq",
+      "sourceChapter": "Electromagnetic Waves",
+      "topic": "Displacement Current",
+      "q": "A parallel plate capacitor with circular plates of radius $R$ is being charged by a steady direct current $I$. The magnitude of the magnetic field $B$ induced by the displacement current at a radial distance $r = R/2$ from the central axis between the plates is:",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The displacement current density $J_d$ is uniform across the cross-section of the capacitor plates and is given by $J_d = \\frac{I}{\\pi R^2}$.<br><b>Step 2:</b> Apply the Ampere-Maxwell law to a circular loop of radius $r < R$: $\\oint B \\cdot dl = \\mu_0 I_{d,enc} \\implies B(2\\pi r) = \\mu_0 (J_d \\cdot \\pi r^2)$.<br><b>Step 3:</b> Substitute $J_d$ to find the field inside the plates: $B(2\\pi r) = \\mu_0 \\left(\\frac{I}{\\pi R^2}\\right) (\\pi r^2) \\implies B = \\frac{\\mu_0 I r}{2\\pi R^2}$. For $r = R/2$, $B = \\frac{\\mu_0 I (R/2)}{2\\pi R^2} = \\frac{\\mu_0 I}{4\\pi R}$.",
+      "options": [
+        "$\\frac{\\mu_0 I}{2\\pi R}$",
+        "$\\frac{\\mu_0 I}{4\\pi R}$",
+        "$\\frac{\\mu_0 I}{\\pi R}$",
+        "$\\frac{\\mu_0 I}{8\\pi R}$"
+      ]
+    },
+    {
+      "id": "Q11",
+      "type": "mcq",
+      "sourceChapter": "System of Particles & Rotational Motion",
+      "topic": "Rolling Motion",
+      "q": "A uniform solid sphere of mass $m$ and radius $R$ is projected horizontally on a rough horizontal floor with a linear velocity $v_0$ and zero initial angular velocity. What is the magnitude of the work done by kinetic friction before the sphere starts pure rolling?",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> Apply conservation of angular momentum about a point on the floor. The friction force passes through this point, so its torque is zero: $m v_0 R = m v R + I\\omega$.<br><b>Step 2:</b> For pure rolling, $v = \\omega R$. Substitute $I = \\frac{2}{5}mR^2$: $m v_0 R = m v R + (\\frac{2}{5}mR^2)(v/R) = \\frac{7}{5}mvR \\implies v = \\frac{5}{7}v_0$.<br><b>Step 3:</b> The work done by friction is the change in kinetic energy: $W = K_f - K_i = [\\frac{1}{2}mv^2 + \\frac{1}{2}(\\frac{2}{5}mR^2)(v/R)^2] - \\frac{1}{2}mv_0^2 = \\frac{7}{10}mv^2 - \\frac{1}{2}mv_0^2$. Substitute $v$: $W = \\frac{7}{10}m(\\frac{25}{49}v_0^2) - \\frac{1}{2}mv_0^2 = \\frac{5}{14}mv_0^2 - \\frac{7}{14}mv_0^2 = -\\frac{1}{7}mv_0^2$. Magnitude is $\\frac{1}{7}mv_0^2$.",
+      "options": [
+        "$\\frac{1}{7}mv_0^2$",
+        "$\\frac{2}{7}mv_0^2$",
+        "$\\frac{5}{14}mv_0^2$",
+        "$\\frac{1}{5}mv_0^2$"
+      ]
+    },
+    {
+      "id": "Q12",
+      "type": "mcq",
+      "sourceChapter": "Properties of Matter",
+      "topic": "Elasticity",
+      "q": "A uniform heavy rope of mass $M$ and length $L$ hangs vertically from a rigid support. The Young's modulus of the material of the rope is $Y$ and its uniform cross-sectional area is $A$. The total elongation of the rope due to its own weight is:",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Consider an element of length $dx$ at a distance $x$ from the bottom of the rope. The tension $T$ at this cross-section is due to the weight of the rope below it: $T = (\\frac{M}{L}x)g$.<br><b>Step 2:</b> The elongation $dl$ of this element is given by Hooke's Law: $dl = \\frac{T dx}{AY} = \\frac{Mgx dx}{LAY}$.<br><b>Step 3:</b> The total elongation is the integral of $dl$ over the entire length from $x = 0$ to $x = L$: $\\Delta L = \\int_{0}^{L} \\frac{Mgx}{LAY} dx = \\frac{Mg}{LAY} \\left[\\frac{x^2}{2}\\right]_{0}^{L} = \\frac{MgL^2}{2LAY} = \\frac{MgL}{2AY}$.",
+      "options": [
+        "$\\frac{MgL}{AY}$",
+        "$\\frac{MgL}{2AY}$",
+        "$\\frac{2MgL}{AY}$",
+        "$\\frac{MgL}{4AY}$"
+      ]
+    },
+    {
+      "id": "Q13",
+      "type": "mcq",
+      "sourceChapter": "Magnetism and Matter",
+      "topic": "Magnetization",
+      "q": "A permanent magnet in the shape of a thin cylinder of length $10 \\text{ cm}$ has a uniform magnetization $M = 10^6 \\text{ A/m}$. Its equivalent magnetization current $I_M$ is:",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> Magnetization $M$ is defined as the magnetic moment $m$ per unit volume $V$. Thus, $M = \\frac{m}{V}$.<br><b>Step 2:</b> The equivalent magnetic moment of a cylindrical magnet can also be written in terms of its equivalent surface magnetization current $I_M$ and cross-sectional area $A$ as $m = I_M \\times A$.<br><b>Step 3:</b> The volume of the cylinder is $V = A \\times L$. Substituting these into the magnetization formula gives $M = \\frac{I_M A}{A L} = \\frac{I_M}{L}$. Therefore, $I_M = M \\times L = 10^6 \\times 0.1 = 10^5 \\text{ A}$.",
+      "options": [
+        "$10^4 \\text{ A}$",
+        "$10^5 \\text{ A}$",
+        "$10^6 \\text{ A}$",
+        "$10^7 \\text{ A}$"
+      ]
+    },
+    {
+      "id": "Q14",
+      "type": "mcq",
+      "sourceChapter": "Alternating Current",
+      "topic": "LCR Series Circuit",
+      "q": "In a series LCR circuit, the RMS voltages across the resistance, capacitance, and inductance are $10 \\text{ V}$ each. If the capacitance is suddenly short-circuited, the new RMS voltage across the inductance will be:",
+      "imgUrl": "",
+      "correct": 2,
+      "sol": "<b>Step 1:</b> Initially, $V_R = V_L = V_C = 10 \\text{ V}$. Since $V_L = V_C$, the circuit is in resonance ($X_L = X_C = R$). The source voltage is $V = \\sqrt{V_R^2 + (V_L - V_C)^2} = 10 \\text{ V}$.<br><b>Step 2:</b> When the capacitor is short-circuited, the circuit becomes an LR series circuit. The new impedance is $Z' = \\sqrt{R^2 + X_L^2} = \\sqrt{R^2 + R^2} = R\\sqrt{2}$.<br><b>Step 3:</b> The new RMS current is $I' = \\frac{V}{Z'} = \\frac{10}{R\\sqrt{2}}$. The new voltage across the inductance is $V_L' = I' X_L = (\\frac{10}{R\\sqrt{2}}) \\times R = \\frac{10}{\\sqrt{2}} = 5\\sqrt{2} \\text{ V}$.",
+      "options": [
+        "$10 \\text{ V}$",
+        "$10\\sqrt{2} \\text{ V}$",
+        "$5\\sqrt{2} \\text{ V}$",
+        "$20 \\text{ V}$"
+      ]
+    },
+    {
+      "id": "Q15",
+      "type": "mcq",
+      "sourceChapter": "Electromagnetic Waves",
+      "topic": "Properties of EM Waves",
+      "q": "The electric field of a plane electromagnetic wave propagating in a vacuum is given by $\\vec{E} = E_0 \\sin(\\omega t - kz) \\hat{i} + E_0 \\cos(\\omega t - kz) \\hat{j}$. Which of the following represents the corresponding magnetic field vector $\\vec{B}$?",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The wave is propagating in the $+z$ direction, so the direction vector of propagation is $\\hat{k}$.<br><b>Step 2:</b> For an electromagnetic wave, the magnetic field can be found using the relation $\\vec{B} = \\frac{1}{c} (\\hat{k} \\times \\vec{E})$.<br><b>Step 3:</b> Calculate the cross product: $\\vec{B} = \\frac{1}{c} [\\hat{k} \\times (E_0 \\sin(\\omega t - kz) \\hat{i} + E_0 \\cos(\\omega t - kz) \\hat{j})]$. Using $\\hat{k} \\times \\hat{i} = \\hat{j}$ and $\\hat{k} \\times \\hat{j} = -\\hat{i}$, we get $\\vec{B} = \\frac{E_0}{c} [\\sin(\\omega t - kz) \\hat{j} - \\cos(\\omega t - kz) \\hat{i}]$, which matches option 0.",
+      "options": [
+        "$\\frac{E_0}{c} [-\\cos(\\omega t - kz) \\hat{i} + \\sin(\\omega t - kz) \\hat{j}]$",
+        "$\\frac{E_0}{c} [\\cos(\\omega t - kz) \\hat{i} + \\sin(\\omega t - kz) \\hat{j}]$",
+        "$\\frac{E_0}{c} [\\sin(\\omega t - kz) \\hat{i} - \\cos(\\omega t - kz) \\hat{j}]$",
+        "$\\frac{E_0}{c} [-\\sin(\\omega t - kz) \\hat{i} - \\cos(\\omega t - kz) \\hat{j}]$"
+      ]
+    },
+    {
+      "id": "Q16",
+      "type": "mcq",
+      "sourceChapter": "System of Particles & Rotational Motion",
+      "topic": "Collision & Rotation",
+      "q": "A thin uniform rod of length $L$ and mass $M$ is hinged freely at one end. It is released from a horizontal position. When it reaches the vertical position, it strikes a particle of mass $m=M/2$ resting at its lowest point perfectly inelastically (the particle sticks to the rod). What is the maximum angle the rod swings through after the collision?",
+      "imgUrl": "",
+      "correct": 3,
+      "sol": "<b>Step 1:</b> Angular velocity before collision: By energy conservation, $Mg(L/2) = \\frac{1}{2}(\\frac{ML^2}{3})\\omega^2 \\implies \\omega = \\sqrt{3g/L}$.<br><b>Step 2:</b> Angular momentum is conserved about the hinge during the inelastic collision: $I_i \\omega = I_f \\omega'$. Since $I_f = \\frac{ML^2}{3} + m L^2 = \\frac{ML^2}{3} + \\frac{M}{2}L^2 = \\frac{5ML^2}{6}$, we have $(\\frac{ML^2}{3})\\omega = (\\frac{5ML^2}{6})\\omega' \\implies \\omega' = \\frac{2}{5}\\omega$.<br><b>Step 3:</b> Energy conservation for the upward swing: $\\frac{1}{2}I_f \\omega'^2 = (M\\frac{L}{2} + mL)g(1 - \\cos\\theta)$. Substituting values gives $\\frac{1}{2}(\\frac{5ML^2}{6})(\\frac{4}{25}\\frac{3g}{L}) = (Mg\\frac{L}{2} + Mg\\frac{L}{2})(1 - \\cos\\theta) \\implies \\frac{1}{5}MgL = MgL(1 - \\cos\\theta) \\implies \\cos\\theta = 4/5$.",
+      "options": [
+        "$\\cos^{-1}(1/5)$",
+        "$\\cos^{-1}(2/5)$",
+        "$\\cos^{-1}(3/5)$",
+        "$\\cos^{-1}(4/5)$"
+      ]
+    },
+    {
+      "id": "Q17",
+      "type": "mcq",
+      "sourceChapter": "Properties of Matter",
+      "topic": "Archimedes Principle",
+      "q": "A uniform solid cylinder of height $h$ and density $\\rho$ floats in a liquid of density $\\rho_L$ ($\\rho_L > \\rho$). The cylinder is pushed down slightly and oscillates vertically with a time period $T$. If the entire setup is placed in an elevator accelerating upwards with an acceleration $g/2$, what will be the new time period of oscillation?",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The time period of a floating body oscillating vertically is $T = 2\\pi \\sqrt{\\frac{h \\rho}{\\rho_L g_{eff}}}$, where $g_{eff}$ is the effective acceleration due to gravity.<br><b>Step 2:</b> When the elevator is stationary, $g_{eff} = g$, so the initial time period is $T = 2\\pi \\sqrt{\\frac{h \\rho}{\\rho_L g}}$.<br><b>Step 3:</b> When the elevator accelerates upwards with $a = g/2$, the new effective gravity is $g_{eff} = g + g/2 = \\frac{3g}{2}$. The new time period is $T' = 2\\pi \\sqrt{\\frac{h \\rho}{\\rho_L (3g/2)}} = \\sqrt{\\frac{2}{3}} T$.",
+      "options": [
+        "$T$",
+        "$\\sqrt{2/3} T$",
+        "$\\sqrt{3/2} T$",
+        "$T/\\sqrt{2}$"
+      ]
+    },
+    {
+      "id": "Q18",
+      "type": "mcq",
+      "sourceChapter": "Magnetism and Matter",
+      "topic": "Magnetic Properties",
+      "q": "An iron rod of volume $10^{-4} \\text{ m}^3$ and relative permeability $1000$ is placed inside a long solenoid wound with $5$ turns/cm. If a current of $0.5 \\text{ A}$ is passed through the solenoid, what is the magnetic moment of the rod?",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The magnetic field intensity $H$ produced by the solenoid is $H = nI$, where $n = 5 \\text{ turns/cm} = 500 \\text{ turns/m}$. So, $H = 500 \\times 0.5 = 250 \\text{ A/m}$.<br><b>Step 2:</b> The magnetization $M$ of the iron rod is $M \\approx \\mu_r H$ (since $\\mu_r \\gg 1$). Therefore, $M = 1000 \\times 250 = 2.5 \\times 10^5 \\text{ A/m}$.<br><b>Step 3:</b> The magnetic moment $m$ is the product of magnetization and volume: $m = M \\times V = (2.5 \\times 10^5) \\times 10^{-4} = 25 \\text{ A}\\cdot\\text{m}^2$.",
+      "options": [
+        "$25 \\text{ A}\\cdot\\text{m}^2$",
+        "$2.5 \\text{ A}\\cdot\\text{m}^2$",
+        "$250 \\text{ A}\\cdot\\text{m}^2$",
+        "$12.5 \\text{ A}\\cdot\\text{m}^2$"
+      ]
+    },
+    {
+      "id": "Q19",
+      "type": "mcq",
+      "sourceChapter": "Alternating Current",
+      "topic": "Transformers",
+      "q": "A step-down transformer has an efficiency of $80\\%$. It is connected to a $220 \\text{ V}$ AC mains supply and is used to operate a $11 \\text{ V}, 44 \\text{ W}$ lamp at its rated power. The current in the primary circuit is:",
+      "imgUrl": "",
+      "correct": 1,
+      "sol": "<b>Step 1:</b> The output power required to operate the lamp at its rated value is $P_{out} = 44 \\text{ W}$.<br><b>Step 2:</b> The efficiency of the transformer is $\\eta = \\frac{P_{out}}{P_{in}} = 0.80$. Thus, the input power must be $P_{in} = \\frac{44}{0.80} = 55 \\text{ W}$.<br><b>Step 3:</b> The primary current $I_p$ is calculated using $P_{in} = V_p I_p$. Therefore, $I_p = \\frac{P_{in}}{V_p} = \\frac{55}{220} = 0.25 \\text{ A}$.",
+      "options": [
+        "$0.2 \\text{ A}$",
+        "$0.25 \\text{ A}$",
+        "$0.4 \\text{ A}$",
+        "$4 \\text{ A}$"
+      ]
+    },
+    {
+      "id": "Q20",
+      "type": "mcq",
+      "sourceChapter": "Electromagnetic Waves",
+      "topic": "Lorentz Force in EM Waves",
+      "q": "A light beam travelling in the $+x$-direction is described by the electric field $E_y = 300 \\sin(\\omega t - \\frac{x}{c}) \\text{ V/m}$. An electron is constrained to move along the $+y$-direction with a speed of $2 \\times 10^7 \\text{ m/s}$. The maximum magnetic force acting on the electron is:",
+      "imgUrl": "",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> From the electric field equation, the maximum electric field amplitude is $E_0 = 300 \\text{ V/m}$. The corresponding magnetic field amplitude is $B_0 = \\frac{E_0}{c} = \\frac{300}{3 \\times 10^8} = 10^{-6} \\text{ T}$.<br><b>Step 2:</b> The wave propagates in the $+x$ direction and $\\vec{E}$ is along $+y$, so $\\vec{B}$ oscillates along the $+z$ direction. The electron velocity $\\vec{v}$ is along the $+y$ direction.<br><b>Step 3:</b> The maximum magnetic force is given by $F_{max} = qvB_0 = (1.6 \\times 10^{-19} \\text{ C}) \\times (2 \\times 10^7 \\text{ m/s}) \\times (10^{-6} \\text{ T}) = 3.2 \\times 10^{-18} \\text{ N}$.",
+      "options": [
+        "$3.2 \\times 10^{-18} \\text{ N}$",
+        "$4.8 \\times 10^{-18} \\text{ N}$",
+        "$1.6 \\times 10^{-18} \\text{ N}$",
+        "$6.4 \\times 10^{-18} \\text{ N}$"
+      ]
+    },
+    {
+      "id": "Q21",
+      "type": "integer",
+      "sourceChapter": "System of Particles & Rotational Motion",
+      "topic": "Rolling Motion",
+      "q": "A uniform disc of mass $2 \\text{ kg}$ and radius $0.5 \\text{ m}$ is spinning about its central axis with an angular velocity of $12 \\text{ rad/s}$. It is gently placed on a rough horizontal surface. The magnitude of the total work done by friction before the disc starts pure rolling is (in Joules):",
+      "imgUrl": "",
+      "correct": 12,
+      "sol": "<b>Step 1:</b> The initial kinetic energy is purely rotational: $K_i = \\frac{1}{2} I \\omega_0^2 = \\frac{1}{2} (\\frac{1}{2} M R^2) \\omega_0^2 = \\frac{1}{4}(2)(0.25)(144) = 18 \\text{ J}$.<br><b>Step 2:</b> Angular momentum about any point on the ground is conserved: $I_{cm} \\omega_0 = I_{cm} \\omega + M v R$. For pure rolling, $v = \\omega R$, so $\\frac{1}{2} M R^2 \\omega_0 = \\frac{1}{2} M R^2 \\omega + M R^2 \\omega = \\frac{3}{2} M R^2 \\omega \\implies \\omega = \\omega_0 / 3 = 4 \\text{ rad/s}$.<br><b>Step 3:</b> The final kinetic energy is $K_f = \\frac{1}{2} I_{cm} \\omega^2 + \\frac{1}{2} M v^2 = \\frac{1}{2}(\\frac{1}{2} M R^2)\\omega^2 + \\frac{1}{2} M (\\omega R)^2 = \\frac{3}{4} M R^2 \\omega^2 = \\frac{3}{4}(2)(0.25)(16) = 6 \\text{ J}$. Work done by friction is $|K_f - K_i| = |6 - 18| = 12 \\text{ J}$."
+    },
+    {
+      "id": "Q22",
+      "type": "integer",
+      "sourceChapter": "Properties of Matter",
+      "topic": "Fluid Statics",
+      "q": "A cylindrical vessel of radius $R = 0.1 \\text{ m}$ is partially filled with water. It is rotated about its vertical central axis with an angular velocity $\\omega = 10 \\text{ rad/s}$. The difference in the height of the water surface at the edge of the cylinder and at its center is (in cm): (Take $g = 10 \\text{ m/s}^2$)",
+      "imgUrl": "",
+      "correct": 5,
+      "sol": "<b>Step 1:</b> For a liquid rotating in a cylinder, the surface forms a paraboloid. The pressure difference between the center and a point at radius $r$ is provided by the centrifugal force per unit volume.<br><b>Step 2:</b> The equation of the free surface is given by $y = \\frac{\\omega^2 r^2}{2g}$, where $y$ is the height above the lowest point (the center).<br><b>Step 3:</b> At the edge of the cylinder, $r = R = 0.1 \\text{ m}$. Substituting the values: $y = \\frac{(10)^2 \\times (0.1)^2}{2 \\times 10} = \\frac{100 \\times 0.01}{20} = \\frac{1}{20} \\text{ m} = 0.05 \\text{ m}$. In cm, this is $5 \\text{ cm}$."
+    },
+    {
+      "id": "Q23",
+      "type": "integer",
+      "sourceChapter": "Alternating Current",
+      "topic": "Power in AC Circuits",
+      "q": "A series LCR circuit with $R = 8 \\Omega$, $X_L = 20 \\Omega$, and $X_C = 14 \\Omega$ is connected to an AC source with an RMS voltage of $100 \\text{ V}$. If the average power dissipated in the circuit is $P$ watts, find the value of $P/10$.",
+      "imgUrl": "",
+      "correct": 80,
+      "sol": "<b>Step 1:</b> First, calculate the net impedance of the series LCR circuit using $Z = \\sqrt{R^2 + (X_L - X_C)^2}$.<br><b>Step 2:</b> Substitute the given values: $Z = \\sqrt{8^2 + (20 - 14)^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10 \\Omega$. The RMS current is $I_{rms} = \\frac{V_{rms}}{Z} = \\frac{100}{10} = 10 \\text{ A}$.<br><b>Step 3:</b> The average power dissipated is strictly through the resistor: $P = I_{rms}^2 R = (10)^2 \\times 8 = 800 \\text{ W}$. Therefore, the value of $P/10$ is $80$."
+    },
+    {
+      "id": "Q24",
+      "type": "integer",
+      "sourceChapter": "Electromagnetic Waves",
+      "topic": "Radiation Pressure",
+      "q": "A light beam of uniform intensity $15 \\text{ W/m}^2$ falls normally on a perfectly reflecting flat surface of area $20 \\text{ m}^2$. If the total force exerted by the light beam on the surface is $x \\times 10^{-7} \\text{ N}$, find the value of $x$. (Take $c = 3 \\times 10^8 \\text{ m/s}$)",
+      "imgUrl": "",
+      "correct": 20,
+      "sol": "<b>Step 1:</b> The radiation pressure $P_r$ exerted by a wave incident normally on a perfectly reflecting surface is $P_r = \\frac{2I}{c}$, where $I$ is the intensity.<br><b>Step 2:</b> The total force $F$ exerted on the surface is the pressure multiplied by the area: $F = P_r \\times A = \\frac{2IA}{c}$.<br><b>Step 3:</b> Substitute the given values: $F = \\frac{2 \\times 15 \\times 20}{3 \\times 10^8} = \\frac{600}{3 \\times 10^8} = 200 \\times 10^{-8} \\text{ N} = 20 \\times 10^{-7} \\text{ N}$. Comparing this with $x \\times 10^{-7} \\text{ N}$ gives $x = 20$."
+    },
+    {
+      "id": "Q25",
+      "type": "integer",
+      "sourceChapter": "Magnetism and Matter",
+      "topic": "Earth's Magnetism",
+      "q": "A dip circle shows an apparent dip of $45^\\circ$ when placed in a vertical plane that makes an angle of $30^\\circ$ with the magnetic meridian. If the true angle of dip at that place is $\\delta$, find the value of $16 \\tan^2\\delta$.",
+      "imgUrl": "",
+      "correct": 12,
+      "sol": "<b>Step 1:</b> The relation between true dip ($\\delta$) and apparent dip ($\\delta'$) in a plane inclined at an angle $\\alpha$ to the magnetic meridian is $\\tan \\delta' = \\frac{\\tan \\delta}{\\cos \\alpha}$.<br><b>Step 2:</b> Substitute the given values ($\\delta' = 45^\\circ$ and $\\alpha = 30^\\circ$): $\\tan 45^\\circ = \\frac{\\tan \\delta}{\\cos 30^\\circ} \\implies 1 = \\frac{\\tan \\delta}{\\sqrt{3}/2} \\implies \\tan \\delta = \\frac{\\sqrt{3}}{2}$.<br><b>Step 3:</b> We need to find $16 \\tan^2\\delta$. Squaring the tangent gives $\\tan^2\\delta = \\frac{3}{4}$. Multiplying by 16 gives $16 \\times \\frac{3}{4} = 12$."
+    }
   ]
 }
