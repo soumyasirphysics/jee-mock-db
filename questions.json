@@ -748,16 +748,16 @@
       "id": "Q1",
       "type": "mcq",
       "sourceChapter": "System of Particles & Rotational Motion",
-      "topic": "Rolling Motion",
-      "q": "A solid cylinder of mass $m$ and radius $R$ is placed on a rough horizontal plank of mass $M = 2m$. The plank is pulled by a constant horizontal force $F$. Assuming no slipping occurs between the cylinder and the plank, and the ground is frictionless, what is the acceleration of the center of mass of the cylinder?",
+      "topic": "Moment of Inertia",
+      "q": "A uniform circular disc of radius $R$ and mass $M$ has a circular hole of radius $R/2$ cut out from it. The center of the hole is at a distance $R/2$ from the center of the original disc. What is the moment of inertia of the remaining portion about an axis passing through the center of the original disc and perpendicular to its plane?",
       "imgUrl": "",
-      "correct": 2,
-      "sol": "<b>Step 1:</b> Let $a_p$ be plank's acceleration and $a_c$ be cylinder's cm acceleration. For pure rolling on the plank, the relative acceleration dictates $\\alpha R = a_p - a_c$.<br><b>Step 2:</b> Write Newton's equations: $F - f = 2m a_p$ (plank), $f = m a_c$ (cylinder translation), and $fR = \\frac{1}{2}mR^2 \\alpha \\implies \\alpha R = 2 a_c$.<br><b>Step 3:</b> Substitute $\\alpha R$: $2 a_c = a_p - a_c \\implies a_p = 3 a_c$. Substitute into plank equation: $F - m a_c = 2m(3 a_c) = 6 m a_c \\implies F = 7 m a_c \\implies a_c = F/(7m)$.",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The moment of inertia of the complete solid disc about its central axis is $I_{total} = \\frac{1}{2}MR^2$. The mass of the cut-out hole is $m' = M \\frac{\\pi(R/2)^2}{\\pi R^2} = \\frac{M}{4}$.<br><b>Step 2:</b> Find the moment of inertia of the removed hole about the original disc's center using the parallel axis theorem: $I_{hole} = \\frac{1}{2}m'(R/2)^2 + m'(R/2)^2 = \\frac{1}{2}(\\frac{M}{4})(\\frac{R^2}{4}) + (\\frac{M}{4})(\\frac{R^2}{4}) = \\frac{MR^2}{32} + \\frac{2MR^2}{32} = \\frac{3MR^2}{32}$.<br><b>Step 3:</b> The moment of inertia of the remaining portion is $I = I_{total} - I_{hole} = \\frac{1}{2}MR^2 - \\frac{3MR^2}{32} = \\frac{16MR^2}{32} - \\frac{3MR^2}{32} = \\frac{13MR^2}{32}$.",
       "options": [
-        "$F/3m$",
-        "$F/5m$",
-        "$F/7m$",
-        "$2F/7m$"
+        "$13MR^2/32$",
+        "$15MR^2/32$",
+        "$9MR^2/32$",
+        "$11MR^2/32$"
       ]
     },
     {
@@ -780,16 +780,16 @@
       "id": "Q3",
       "type": "mcq",
       "sourceChapter": "Magnetism and Matter",
-      "topic": "Earth's Magnetism",
-      "q": "The time period of a small bar magnet in a vibration magnetometer is $T$. If the magnet is cut into two equal halves perpendicular to its length and one half is placed in the magnetometer, what will be its new time period?",
+      "topic": "Magnetic Dipole Moment",
+      "q": "A straight steel wire of length $L$ and magnetic dipole moment $M$ is bent into a semicircular arc. What is the new magnetic dipole moment of the wire?",
       "imgUrl": "",
       "correct": 0,
-      "sol": "<b>Step 1:</b> The time period of a vibration magnetometer is $T = 2\\pi\\sqrt{I/MB}$, where $I = mL^2/12$ is the moment of inertia and $M$ is the magnetic moment.<br><b>Step 2:</b> Cutting the magnet in half perpendicular to its length halves its mass ($m'=m/2$) and length ($L'=L/2$), making $I' = \\frac{(m/2)(L/2)^2}{12} = I/8$.<br><b>Step 3:</b> The new magnetic moment is $M' = M/2$. The new time period is $T' = 2\\pi\\sqrt{\\frac{I/8}{(M/2)B}} = 2\\pi\\sqrt{\\frac{I}{4MB}} = \\frac{T}{2}$.",
+      "sol": "<b>Step 1:</b> Let the pole strength of the magnet be $m$. The initial magnetic dipole moment is given by $M = m \\times L$.<br><b>Step 2:</b> When bent into a semicircle of radius $r$, the length of the wire becomes the arc length: $L = \\pi r \\implies r = L/\\pi$.<br><b>Step 3:</b> The new magnetic moment depends on the shortest distance between the poles, which is the diameter $2r$. Thus, $M' = m \\times (2r) = m \\times (2L/\\pi) = 2(mL)/\\pi = 2M/\\pi$.",
       "options": [
-        "$T/2$",
-        "$T/\\sqrt{2}$",
-        "$T/4$",
-        "$T/2\\sqrt{2}$"
+        "$2M/\\pi$",
+        "$M/\\pi$",
+        "$M/2\\pi$",
+        "$2M$"
       ]
     },
     {
@@ -860,16 +860,16 @@
       "id": "Q8",
       "type": "mcq",
       "sourceChapter": "Magnetism and Matter",
-      "topic": "Magnetic Properties",
-      "q": "A U-tube of uniform cross-section contains a paramagnetic liquid of density $\\rho$ and susceptibility $\\chi$ ($\\chi \\ll 1$). One arm of the tube is placed between the poles of an electromagnet producing a uniform magnetic field $B$, while the other arm is in a zero-field region. The meniscus in the magnetic field arm rises by a height $h$. Assuming $B \\approx \\mu_0 H$, the height $h$ is given by:",
+      "topic": "Magnetic Moment",
+      "q": "A domain in solid iron contains $5 \\times 10^{10}$ atoms. The magnetic moment of each individual iron atom is $8 \\times 10^{-24} \\text{ A}\\cdot\\text{m}^2$. If all the atomic dipoles are perfectly aligned, what is the total magnetic dipole moment of the domain?",
       "imgUrl": "",
-      "correct": 3,
-      "sol": "<b>Step 1:</b> The magnetic energy density in the paramagnetic liquid is $U_m = \\frac{1}{2} M \\cdot B = \\frac{1}{2} (\\chi H) (\\mu_0 H) = \\frac{\\chi B^2}{2\\mu_0}$.<br><b>Step 2:</b> This magnetic energy density manifests as a magnetic pressure that pulls the liquid into the stronger magnetic field region, creating an effective pressure difference $\\Delta P = \\frac{\\chi B^2}{2\\mu_0}$.<br><b>Step 3:</b> This pressure difference is balanced by the hydrostatic pressure of the liquid column of height $h$. Thus, $\\rho g h = \\frac{\\chi B^2}{2\\mu_0} \\implies h = \\frac{\\chi B^2}{2\\mu_0 \\rho g}$.",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The total magnetic moment of a domain is the vector sum of the magnetic moments of all its constituent atoms.<br><b>Step 2:</b> Since all the dipoles are perfectly aligned, the total magnetic moment $M_{total}$ is simply the number of atoms $N$ multiplied by the individual magnetic moment $m$.<br><b>Step 3:</b> Substitute the values: $M_{total} = N \\times m = (5 \\times 10^{10}) \\times (8 \\times 10^{-24}) = 40 \\times 10^{-14} = 4 \\times 10^{-13} \\text{ A}\\cdot\\text{m}^2$.",
       "options": [
-        "$\\frac{\\chi B^2}{\\mu_0 \\rho g}$",
-        "$\\frac{2\\chi B^2}{\\mu_0 \\rho g}$",
-        "$\\frac{\\chi B^2}{4\\mu_0 \\rho g}$",
-        "$\\frac{\\chi B^2}{2\\mu_0 \\rho g}$"
+        "$4 \\times 10^{-13} \\text{ A}\\cdot\\text{m}^2$",
+        "$4 \\times 10^{-14} \\text{ A}\\cdot\\text{m}^2$",
+        "$4 \\times 10^{-12} \\text{ A}\\cdot\\text{m}^2$",
+        "$4 \\times 10^{-15} \\text{ A}\\cdot\\text{m}^2$"
       ]
     },
     {
@@ -908,16 +908,16 @@
       "id": "Q11",
       "type": "mcq",
       "sourceChapter": "System of Particles & Rotational Motion",
-      "topic": "Rolling Motion",
-      "q": "A uniform solid sphere of mass $m$ and radius $R$ is projected horizontally on a rough horizontal floor with a linear velocity $v_0$ and zero initial angular velocity. What is the magnitude of the work done by kinetic friction before the sphere starts pure rolling?",
+      "topic": "Conservation of Angular Momentum",
+      "q": "A horizontal circular platform of mass $100 \\text{ kg}$ and radius $2 \\text{ m}$ is rotating at $10 \\text{ rpm}$ about a frictionless vertical axis passing through its center. A man of mass $50 \\text{ kg}$ is standing at the edge of the platform. If the man walks towards the center and reaches the axis, what is the new angular velocity of the platform? (Assume the platform is a uniform solid disc and the man is a point mass).",
       "imgUrl": "",
       "correct": 0,
-      "sol": "<b>Step 1:</b> Apply conservation of angular momentum about a point on the floor. The friction force passes through this point, so its torque is zero: $m v_0 R = m v R + I\\omega$.<br><b>Step 2:</b> For pure rolling, $v = \\omega R$. Substitute $I = \\frac{2}{5}mR^2$: $m v_0 R = m v R + (\\frac{2}{5}mR^2)(v/R) = \\frac{7}{5}mvR \\implies v = \\frac{5}{7}v_0$.<br><b>Step 3:</b> The work done by friction is the change in kinetic energy: $W = K_f - K_i = [\\frac{1}{2}mv^2 + \\frac{1}{2}(\\frac{2}{5}mR^2)(v/R)^2] - \\frac{1}{2}mv_0^2 = \\frac{7}{10}mv^2 - \\frac{1}{2}mv_0^2$. Substitute $v$: $W = \\frac{7}{10}m(\\frac{25}{49}v_0^2) - \\frac{1}{2}mv_0^2 = \\frac{5}{14}mv_0^2 - \\frac{7}{14}mv_0^2 = -\\frac{1}{7}mv_0^2$. Magnitude is $\\frac{1}{7}mv_0^2$.",
+      "sol": "<b>Step 1:</b> Calculate the initial moment of inertia of the system: $I_i = I_{disc} + I_{man} = \\frac{1}{2} M R^2 + m R^2 = \\frac{1}{2}(100)(2^2) + 50(2^2) = 200 + 200 = 400 \\text{ kg}\\cdot\\text{m}^2$.<br><b>Step 2:</b> Calculate the final moment of inertia when the man is exactly at the center (radius $0$): $I_f = I_{disc} + 0 = 200 \\text{ kg}\\cdot\\text{m}^2$.<br><b>Step 3:</b> Since no external torque acts on the system, angular momentum is conserved: $I_i \\omega_i = I_f \\omega_f \\implies 400 \\times 10 = 200 \\times \\omega_f \\implies \\omega_f = 20 \\text{ rpm}$.",
       "options": [
-        "$\\frac{1}{7}mv_0^2$",
-        "$\\frac{2}{7}mv_0^2$",
-        "$\\frac{5}{14}mv_0^2$",
-        "$\\frac{1}{5}mv_0^2$"
+        "$20 \\text{ rpm}$",
+        "$15 \\text{ rpm}$",
+        "$10 \\text{ rpm}$",
+        "$5 \\text{ rpm}$"
       ]
     },
     {
@@ -940,16 +940,16 @@
       "id": "Q13",
       "type": "mcq",
       "sourceChapter": "Magnetism and Matter",
-      "topic": "Magnetization",
-      "q": "A permanent magnet in the shape of a thin cylinder of length $10 \\text{ cm}$ has a uniform magnetization $M = 10^6 \\text{ A/m}$. Its equivalent magnetization current $I_M$ is:",
+      "topic": "Magnetic Properties",
+      "q": "For a given paramagnetic material, the magnetic susceptibility $\\chi$ is measured to be $2.0 \\times 10^{-5}$. What is the relative permeability $\\mu_r$ of this material?",
       "imgUrl": "",
-      "correct": 1,
-      "sol": "<b>Step 1:</b> Magnetization $M$ is defined as the magnetic moment $m$ per unit volume $V$. Thus, $M = \\frac{m}{V}$.<br><b>Step 2:</b> The equivalent magnetic moment of a cylindrical magnet can also be written in terms of its equivalent surface magnetization current $I_M$ and cross-sectional area $A$ as $m = I_M \\times A$.<br><b>Step 3:</b> The volume of the cylinder is $V = A \\times L$. Substituting these into the magnetization formula gives $M = \\frac{I_M A}{A L} = \\frac{I_M}{L}$. Therefore, $I_M = M \\times L = 10^6 \\times 0.1 = 10^5 \\text{ A}$.",
+      "correct": 0,
+      "sol": "<b>Step 1:</b> The relationship between relative permeability $\\mu_r$ and magnetic susceptibility $\\chi$ for any magnetic material is given by the equation $\\mu_r = 1 + \\chi$.<br><b>Step 2:</b> Substitute the given value of susceptibility into the equation: $\\chi = 2.0 \\times 10^{-5} = 0.00002$.<br><b>Step 3:</b> Calculate the final relative permeability: $\\mu_r = 1 + 0.00002 = 1.00002$.",
       "options": [
-        "$10^4 \\text{ A}$",
-        "$10^5 \\text{ A}$",
-        "$10^6 \\text{ A}$",
-        "$10^7 \\text{ A}$"
+        "$1.00002$",
+        "$0.99998$",
+        "$2.00002$",
+        "$1.50000$"
       ]
     },
     {
@@ -976,7 +976,7 @@
       "q": "The electric field of a plane electromagnetic wave propagating in a vacuum is given by $\\vec{E} = E_0 \\sin(\\omega t - kz) \\hat{i} + E_0 \\cos(\\omega t - kz) \\hat{j}$. Which of the following represents the corresponding magnetic field vector $\\vec{B}$?",
       "imgUrl": "",
       "correct": 0,
-      "sol": "<b>Step 1:</b> The wave is propagating in the $+z$ direction, so the direction vector of propagation is $\\hat{k}$.<br><b>Step 2:</b> For an electromagnetic wave, the magnetic field can be found using the relation $\\vec{B} = \\frac{1}{c} (\\hat{k} \\times \\vec{E})$.<br><b>Step 3:</b> Calculate the cross product: $\\vec{B} = \\frac{1}{c} [\\hat{k} \\times (E_0 \\sin(\\omega t - kz) \\hat{i} + E_0 \\cos(\\omega t - kz) \\hat{j})]$. Using $\\hat{k} \\times \\hat{i} = \\hat{j}$ and $\\hat{k} \\times \\hat{j} = -\\hat{i}$, we get $\\vec{B} = \\frac{E_0}{c} [\\sin(\\omega t - kz) \\hat{j} - \\cos(\\omega t - kz) \\hat{i}]$, which matches option 0.",
+      "sol": "<b>Step 1:</b> The wave is propagating in the $+z$ direction, so the direction vector of propagation is $\\hat{k}$.<br><b>Step 2:</b> For an electromagnetic wave, the magnetic field can be found using the relation $\\vec{B} = \\frac{1}{c} (\\hat{k} \\times \\vec{E})$.<br><b>Step 3:</b> Calculate the cross product: $\\vec{B} = \\frac{1}{c} [\\hat{k} \\times (E_0 \\sin(\\omega t - kz) \\hat{i} + E_0 \\cos(\\omega t - kz) \\hat{j})]$. Using $\\hat{k} \\times \\hat{i} = \\hat{j}$ and $\\hat{k} \\times \\hat{j} = -\\hat{i}$, we get $\\vec{B} = \\frac{E_0}{c} [\\sin(\\omega t - kz) \\hat{j} - \\cos(\\omega t - kz) \\hat{i}]$.",
       "options": [
         "$\\frac{E_0}{c} [-\\cos(\\omega t - kz) \\hat{i} + \\sin(\\omega t - kz) \\hat{j}]$",
         "$\\frac{E_0}{c} [\\cos(\\omega t - kz) \\hat{i} + \\sin(\\omega t - kz) \\hat{j}]$",
@@ -1021,15 +1021,15 @@
       "type": "mcq",
       "sourceChapter": "Magnetism and Matter",
       "topic": "Magnetic Properties",
-      "q": "An iron rod of volume $10^{-4} \\text{ m}^3$ and relative permeability $1000$ is placed inside a long solenoid wound with $5$ turns/cm. If a current of $0.5 \\text{ A}$ is passed through the solenoid, what is the magnetic moment of the rod?",
+      "q": "A magnetic material is tested in a lab and found to have a relative permeability of $0.9983$. Which of the following statements correctly identifies and describes the behavior of this material?",
       "imgUrl": "",
       "correct": 0,
-      "sol": "<b>Step 1:</b> The magnetic field intensity $H$ produced by the solenoid is $H = nI$, where $n = 5 \\text{ turns/cm} = 500 \\text{ turns/m}$. So, $H = 500 \\times 0.5 = 250 \\text{ A/m}$.<br><b>Step 2:</b> The magnetization $M$ of the iron rod is $M \\approx \\mu_r H$ (since $\\mu_r \\gg 1$). Therefore, $M = 1000 \\times 250 = 2.5 \\times 10^5 \\text{ A/m}$.<br><b>Step 3:</b> The magnetic moment $m$ is the product of magnetization and volume: $m = M \\times V = (2.5 \\times 10^5) \\times 10^{-4} = 25 \\text{ A}\\cdot\\text{m}^2$.",
+      "sol": "<b>Step 1:</b> Identify the value of the relative permeability $\\mu_r$. Here, $\\mu_r = 0.9983$, which is slightly less than $1$ ($0 \\le \\mu_r < 1$).<br><b>Step 2:</b> Materials with a relative permeability slightly less than $1$ (and negative magnetic susceptibility) are classified universally as diamagnetic materials.<br><b>Step 3:</b> Due to their nature, diamagnetic materials develop an induced magnetic moment in a direction opposite to the applied magnetic field, causing them to weakly repel magnetic field lines.",
       "options": [
-        "$25 \\text{ A}\\cdot\\text{m}^2$",
-        "$2.5 \\text{ A}\\cdot\\text{m}^2$",
-        "$250 \\text{ A}\\cdot\\text{m}^2$",
-        "$12.5 \\text{ A}\\cdot\\text{m}^2$"
+        "It is diamagnetic and weakly repels magnetic field lines.",
+        "It is paramagnetic and attracts magnetic field lines.",
+        "It is ferromagnetic and strongly attracts magnetic field lines.",
+        "It is a superconductor displaying the complete Meissner effect."
       ]
     },
     {
@@ -1108,11 +1108,11 @@
       "id": "Q25",
       "type": "integer",
       "sourceChapter": "Magnetism and Matter",
-      "topic": "Earth's Magnetism",
-      "q": "A dip circle shows an apparent dip of $45^\\circ$ when placed in a vertical plane that makes an angle of $30^\\circ$ with the magnetic meridian. If the true angle of dip at that place is $\\delta$, find the value of $16 \\tan^2\\delta$.",
+      "topic": "Magnetic Torque",
+      "q": "A short bar magnet placed with its axis at $30^\\circ$ to a uniform external magnetic field of $0.16 \\text{ T}$ experiences a torque of magnitude $0.032 \\text{ J}$. If the magnetic moment of the bar magnet is $M \\times 10^{-1} \\text{ A}\\cdot\\text{m}^2$, find the value of $M$.",
       "imgUrl": "",
-      "correct": 12,
-      "sol": "<b>Step 1:</b> The relation between true dip ($\\delta$) and apparent dip ($\\delta'$) in a plane inclined at an angle $\\alpha$ to the magnetic meridian is $\\tan \\delta' = \\frac{\\tan \\delta}{\\cos \\alpha}$.<br><b>Step 2:</b> Substitute the given values ($\\delta' = 45^\\circ$ and $\\alpha = 30^\\circ$): $\\tan 45^\\circ = \\frac{\\tan \\delta}{\\cos 30^\\circ} \\implies 1 = \\frac{\\tan \\delta}{\\sqrt{3}/2} \\implies \\tan \\delta = \\frac{\\sqrt{3}}{2}$.<br><b>Step 3:</b> We need to find $16 \\tan^2\\delta$. Squaring the tangent gives $\\tan^2\\delta = \\frac{3}{4}$. Multiplying by 16 gives $16 \\times \\frac{3}{4} = 12$."
+      "correct": 4,
+      "sol": "<b>Step 1:</b> The magnitude of the torque acting on a magnetic dipole placed in a uniform magnetic field is given by $\\tau = m B \\sin\\theta$.<br><b>Step 2:</b> Substitute the given values into the formula: $0.032 = m \\times 0.16 \\times \\sin 30^\\circ = m \\times 0.16 \\times 0.5 = 0.08 m$.<br><b>Step 3:</b> Solve for the magnetic moment $m$: $m = \\frac{0.032}{0.08} = 0.4 \\text{ A}\\cdot\\text{m}^2 = 4 \\times 10^{-1} \\text{ A}\\cdot\\text{m}^2$. Comparing this to $M \\times 10^{-1}$, we find $M = 4$."
     }
   ]
 }
